@@ -9,6 +9,8 @@ from compiler.optimizer import Optimizer
 from network.topology import Topology
 from compiler.router import Router
 from compiler.kl_partitioner import KLPartitioner
+from network.monitor import NetworkMonitor
+from compiler.repartition_trigger import RepartitionTrigger
 # Create a sample circuit
 # qc = QuantumCircuit(5)
 
@@ -66,28 +68,16 @@ for qpu, qubits in partitions.items():
 
     print(f"QPU {qpu}: {qubits}")
     
-cost_calculator = CommunicationCost()
+monitor = NetworkMonitor()
 
-cost = cost_calculator.calculate(graph, partitions)
-
-print("\n=== Communication Cost ===")
-print(f"Communication Cost = {cost}")
-
-
-
-optimizer = Optimizer()
-
-best_partition, score = optimizer.optimize(
-    graph,
-    partitions
+monitor.register_link(
+    0,
+    1,
+    latency=15,
+    fidelity=0.98,
+    bell_pairs=20,
+    congestion=10
 )
-
-print("\n===== Optimized Partition =====")
-
-for qpu, qubits in best_partition.items():
-    print(f"QPU {qpu}: {sorted(qubits)}")
-
-print(f"\nObjective Score = {score}")
 
 topology = Topology()
 
@@ -102,17 +92,91 @@ topology.connect(
     bell_pairs=20
 )
 
-topology.print_topology()
+# for i in range(5):
+#     print(f"Iteration {i + 1}:")
+#     monitor.update()
+#     monitor.print_state()
+
+cost_calculator = CommunicationCost(monitor)
+
+cost = cost_calculator.calculate(graph, partitions)
+
+print("\n=== Communication Cost ===")
+print(f"Communication Cost = {cost}")
 
 router = Router()
 
-path = router.route(
-    topology.graph,
-    0,
-    1
-)
 
-print(path)
+optimizer = Optimizer(monitor)
+trigger = RepartitionTrigger()
 
+# best_partition, score = optimizer.optimize(
+#     graph,
+#     partitions
+# )
+
+# print("\n===== Optimized Partition =====")
+
+# for qpu, qubits in best_partition.items():
+#     print(f"QPU {qpu}: {sorted(qubits)}")
+
+# print(f"\nObjective Score = {score}")
+
+for i in range(5):
+
+    print(f"\nIteration {i + 1}:")
+
+    monitor.update()
+
+
+    for (source, destination), state in monitor.links.items():
+            topology.update_link(
+            source,
+            destination,
+            latency=state["latency"],
+            fidelity=state["fidelity"],
+            bell_pairs=state["bell_pairs"]
+        )
+    path = router.route(
+        topology.graph,
+        0,
+        1
+    )
+    
+    print(path)
+    monitor.print_state()
+
+    
+    if trigger.should_repartition(monitor):
+
+        print("\nNetwork degraded.")
+        print("Running adaptive optimizer...")
+
+        partitions, score = optimizer.adaptive_optimize(
+            graph,
+            partitions,
+            cost,
+            threshold=10
+        )
+
+    else:
+
+        print("\nNetwork healthy.")
+        print("Keeping current partition.")
+
+        score = optimizer.objective.evaluate(cost, partitions)
+    print(f"\nCommunication Cost = {cost}")
+
+    print("\n===== Current Partition =====")
+
+    for qpu, qubits in partitions.items():
+        print(f"QPU {qpu}: {sorted(qubits)}")
+
+    print(f"\nObjective Score = {score:.3f}")
+
+
+
+topology.print_topology()
+    
 Visualizer().draw(graph)
 

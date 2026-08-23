@@ -5,9 +5,10 @@ from compiler.objective import ObjectiveFunction
 
 class Optimizer:
 
-    def __init__(self):
-        self.cost = CommunicationCost()
-        self.objective = ObjectiveFunction()
+    def __init__(self, monitor):
+        self.monitor = monitor
+        self.cost = CommunicationCost(monitor)
+        self.objective = ObjectiveFunction(monitor)
 
     def optimize(self, graph, initial_partition):
 
@@ -62,3 +63,26 @@ class Optimizer:
                                 improved = True
 
         return best_partition, best_score
+    
+    def adaptive_optimize(self, graph, current_partition, communication_cost, threshold=5):
+
+        current_score = self.objective.evaluate(communication_cost, current_partition)
+    
+        candidate_partition, _ = self.optimize(graph, current_partition)
+    
+        candidate_comm_cost = self.cost.calculate(graph, candidate_partition)
+    
+        candidate_score = self.objective.evaluate(candidate_comm_cost, candidate_partition)
+    
+        print("\n===== Adaptive Decision =====")
+        print(f"Current Score   : {current_score:.3f}")
+        print(f"Candidate Score : {candidate_score:.3f}")
+    
+        if candidate_score < current_score - threshold:
+            print("Decision : Repartition")
+            return candidate_partition, candidate_score
+    
+        print("Decision : Keep Current Partition")
+        return current_partition, current_score
+    
+    

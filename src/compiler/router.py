@@ -1,16 +1,12 @@
-from networkx import shortest_path
+import networkx as nx
 
 class Router:
 
-    def route(self,
-              topology_graph,
-              source_qpu,
-              destination_qpu):
+    def route(self, topology, source, destination):
 
-        path = shortest_path(
-            topology_graph,
-            source_qpu,
-            destination_qpu
+        return nx.shortest_path(
+            topology,
+            source,
+            destination,
+            weight="latency"
         )
-
-        return path

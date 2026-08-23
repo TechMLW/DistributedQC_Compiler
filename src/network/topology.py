@@ -38,8 +38,11 @@ class Topology:
         self.graph.add_edge(
             a,
             b,
-            weight=latency
-    )
+            weight=latency,
+            latency=latency,
+            fidelity=fidelity,
+            bell_pairs=bell_pairs
+        )
 
     def print_topology(self):
 
@@ -58,3 +61,19 @@ class Topology:
                 f" fidelity={link.fidelity}"
                 f" bell_pairs={link.bell_pairs}"
             )
+            
+    def update_link(
+        self,
+        source,
+        destination,
+        latency,
+        fidelity,
+        bell_pairs
+    ):
+    
+        if self.graph.has_edge(source, destination):
+        
+            self.graph[source][destination]["weight"] = latency
+            self.graph[source][destination]["latency"] = latency
+            self.graph[source][destination]["fidelity"] = fidelity
+            self.graph[source][destination]["bell_pairs"] = bell_pairs
