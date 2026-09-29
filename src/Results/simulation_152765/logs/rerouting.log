@@ -1,0 +1,237 @@
+2026-09-23 16:27:45,686 INFO simulation_152765.rerouting: step 1 selective rerouting: 4 affected communications on congested links 1-4; 5 unaffected communications left untouched
+2026-09-23 16:27:45,686 INFO simulation_152765.rerouting: step 1 block 0: 4 communications, 7 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.8334; qaoa=attempted feasible E=3.8334; executed=qaoa E=3.8334 (keep-current E=3.8334); routes changed=0
+2026-09-23 16:27:45,686 INFO simulation_152765.rerouting: step 1 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:46,012 INFO simulation_152765.rerouting: step 2 selective rerouting: 4 affected communications on congested links 0-2|1-2|1-4; 3 unaffected communications left untouched
+2026-09-23 16:27:46,012 INFO simulation_152765.rerouting: step 2 block 0: 4 communications, 8 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.6631; qaoa=attempted feasible E=1.6631; executed=qaoa E=1.6631 (keep-current E=4.7831); routes changed=1
+2026-09-23 16:27:46,012 INFO simulation_152765.rerouting: step 2 rerouted s0002-w001-g000-q0_10 (q0 QPU0 -> q10 QPU1): 0-2-1 -> 0-3-1, cost 207.12 -> 70.91
+2026-09-23 16:27:46,012 INFO simulation_152765.rerouting: step 2 link 0-2 utilization 0.67 -> 0.50 after selective rerouting
+2026-09-23 16:27:46,012 INFO simulation_152765.rerouting: step 2 link 1-2 utilization 0.67 -> 0.56 after selective rerouting
+2026-09-23 16:27:46,012 INFO simulation_152765.rerouting: step 2 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:47,111 INFO simulation_152765.rerouting: step 3 selective rerouting: 9 affected communications on congested links 0-2|1-4; 1 unaffected communications left untouched
+2026-09-23 16:27:47,111 INFO simulation_152765.rerouting: step 3 block 0: 6 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=5.1860; qaoa=attempted feasible E=5.1860; executed=qaoa E=5.1860 (keep-current E=6.1137); routes changed=2
+2026-09-23 16:27:47,111 INFO simulation_152765.rerouting: step 3 block 1: 3 communications, 5 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=6.6282; qaoa=attempted feasible E=6.6282; executed=qaoa E=6.6282 (keep-current E=6.6282); routes changed=0
+2026-09-23 16:27:47,111 INFO simulation_152765.rerouting: step 3 rerouted s0003-w002-g000-q0_23 (q0 QPU0 -> q23 QPU1): 0-2-1 -> 0-3-1, cost 192.27 -> 167.16
+2026-09-23 16:27:47,111 INFO simulation_152765.rerouting: step 3 rerouted s0003-w002-g006-q6_13 (q6 QPU0 -> q13 QPU5): 0-2-1-5 -> 0-3-1-5, cost 211.15 -> 186.08
+2026-09-23 16:27:47,111 INFO simulation_152765.rerouting: step 3 link 0-2 utilization 1.00 -> 0.67 after selective rerouting
+2026-09-23 16:27:47,111 INFO simulation_152765.rerouting: step 3 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:47,657 INFO simulation_152765.rerouting: step 4 selective rerouting: 5 affected communications on congested links 1-3|1-4|1-5; 2 unaffected communications left untouched
+2026-09-23 16:27:47,657 INFO simulation_152765.rerouting: step 4 block 0: 5 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.4271; qaoa=attempted feasible E=4.4271; executed=qaoa E=4.4271 (keep-current E=5.5403); routes changed=1
+2026-09-23 16:27:47,657 INFO simulation_152765.rerouting: step 4 rerouted s0004-w003-g003-q4_8 (q4 QPU5 -> q8 QPU3): 5-1-3 -> 5-1-2-0-3, cost 235.63 -> 182.45
+2026-09-23 16:27:47,657 INFO simulation_152765.rerouting: step 4 link 1-3 utilization 0.67 -> 0.56 after selective rerouting
+2026-09-23 16:27:47,657 INFO simulation_152765.rerouting: step 4 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:47,657 INFO simulation_152765.rerouting: step 4 link 1-5 utilization 0.75 -> 0.75 after selective rerouting
+2026-09-23 16:27:48,471 INFO simulation_152765.rerouting: step 5 selective rerouting: 9 affected communications on congested links 0-2|1-2|1-4|1-5; 0 unaffected communications left untouched
+2026-09-23 16:27:48,471 INFO simulation_152765.rerouting: step 5 block 0: 6 communications, 11 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=14.2915; qaoa=attempted feasible E=14.2915; executed=qaoa E=14.2915 (keep-current E=24.0497); routes changed=3
+2026-09-23 16:27:48,471 INFO simulation_152765.rerouting: step 5 block 1: 3 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.9694; qaoa=attempted feasible E=2.9694; executed=qaoa E=2.9694 (keep-current E=2.9694); routes changed=0
+2026-09-23 16:27:48,471 INFO simulation_152765.rerouting: step 5 rerouted s0005-w004-g000-q0_4 (q0 QPU0 -> q4 QPU5): 0-2-1-5 -> 0-3-1-5, cost 369.96 -> 200.88
+2026-09-23 16:27:48,471 INFO simulation_152765.rerouting: step 5 rerouted s0005-w004-g002-q2_13 (q2 QPU0 -> q13 QPU5): 0-2-1-5 -> 0-3-1-5, cost 369.96 -> 200.88
+2026-09-23 16:27:48,471 INFO simulation_152765.rerouting: step 5 rerouted s0005-w004-g003-q3_6 (q3 QPU1 -> q6 QPU0): 1-2-0 -> 1-3-0, cost 251.17 -> 75.66
+2026-09-23 16:27:48,471 INFO simulation_152765.rerouting: step 5 link 0-2 utilization 1.00 -> 0.50 after selective rerouting
+2026-09-23 16:27:48,471 INFO simulation_152765.rerouting: step 5 link 1-2 utilization 0.60 -> 0.30 after selective rerouting
+2026-09-23 16:27:48,471 INFO simulation_152765.rerouting: step 5 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:48,471 INFO simulation_152765.rerouting: step 5 link 1-5 utilization 0.88 -> 0.88 after selective rerouting
+2026-09-23 16:27:48,977 INFO simulation_152765.rerouting: step 6 selective rerouting: 6 affected communications on congested links 0-2|1-4; 2 unaffected communications left untouched
+2026-09-23 16:27:48,977 INFO simulation_152765.rerouting: step 6 block 0: 6 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.9812; qaoa=attempted feasible E=4.9812; executed=qaoa E=4.9812 (keep-current E=5.5765); routes changed=1
+2026-09-23 16:27:48,977 INFO simulation_152765.rerouting: step 6 rerouted s0006-w005-g000-q0_3 (q0 QPU0 -> q3 QPU1): 0-2-1 -> 0-3-1, cost 132.15 -> 79.23
+2026-09-23 16:27:48,977 INFO simulation_152765.rerouting: step 6 link 0-2 utilization 0.67 -> 0.50 after selective rerouting
+2026-09-23 16:27:48,978 INFO simulation_152765.rerouting: step 6 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:49,396 INFO simulation_152765.rerouting: step 8 selective rerouting: 5 affected communications on congested links 0-2|1-4; 3 unaffected communications left untouched
+2026-09-23 16:27:49,396 INFO simulation_152765.rerouting: step 8 block 0: 5 communications, 9 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.0834; qaoa=attempted feasible E=4.0834; executed=qaoa E=4.0834 (keep-current E=4.7147); routes changed=1
+2026-09-23 16:27:49,396 INFO simulation_152765.rerouting: step 8 rerouted s0008-w007-g006-q6_23 (q6 QPU0 -> q23 QPU1): 0-2-1 -> 0-3-1, cost 133.98 -> 70.60
+2026-09-23 16:27:49,396 INFO simulation_152765.rerouting: step 8 link 0-2 utilization 0.67 -> 0.50 after selective rerouting
+2026-09-23 16:27:49,396 INFO simulation_152765.rerouting: step 8 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:49,650 INFO simulation_152765.rerouting: step 9 selective rerouting: 7 affected communications on congested links 1-4|1-5; 1 unaffected communications left untouched
+2026-09-23 16:27:49,650 INFO simulation_152765.rerouting: step 9 block 0: 7 communications, 7 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=6.9101; qaoa=attempted feasible E=6.9101; executed=qaoa E=6.9101 (keep-current E=6.9101); routes changed=0
+2026-09-23 16:27:49,650 INFO simulation_152765.rerouting: step 9 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:49,650 INFO simulation_152765.rerouting: step 9 link 1-5 utilization 0.75 -> 0.75 after selective rerouting
+2026-09-23 16:27:50,085 INFO simulation_152765.rerouting: step 10 selective rerouting: 5 affected communications on congested links 1-4|1-5; 4 unaffected communications left untouched
+2026-09-23 16:27:50,085 INFO simulation_152765.rerouting: step 10 block 0: 5 communications, 9 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=5.7622; qaoa=attempted feasible E=5.7622; executed=qaoa E=5.7622 (keep-current E=5.7622); routes changed=0
+2026-09-23 16:27:50,085 INFO simulation_152765.rerouting: step 10 link 1-4 utilization 0.60 -> 0.60 after selective rerouting
+2026-09-23 16:27:50,085 INFO simulation_152765.rerouting: step 10 link 1-5 utilization 0.75 -> 0.75 after selective rerouting
+2026-09-23 16:27:50,362 INFO simulation_152765.rerouting: step 11 selective rerouting: 4 affected communications on congested links 1-4|1-5; 4 unaffected communications left untouched
+2026-09-23 16:27:50,362 INFO simulation_152765.rerouting: step 11 block 0: 4 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=19.0837; qaoa=attempted feasible E=19.0837; executed=qaoa E=19.0837 (keep-current E=19.1734); routes changed=1
+2026-09-23 16:27:50,363 INFO simulation_152765.rerouting: step 11 rerouted s0011-w010-g000-q0_13 (q0 QPU0 -> q13 QPU5): 0-2-1-5 -> 0-3-1-5, cost 188.05 -> 197.57
+2026-09-23 16:27:50,363 INFO simulation_152765.rerouting: step 11 link 1-4 utilization 0.80 -> 0.80 after selective rerouting
+2026-09-23 16:27:50,363 INFO simulation_152765.rerouting: step 11 link 1-5 utilization 0.88 -> 0.88 after selective rerouting
+2026-09-23 16:27:50,849 INFO simulation_152765.rerouting: step 12 selective rerouting: 5 affected communications on congested links 1-4|1-5; 3 unaffected communications left untouched
+2026-09-23 16:27:50,849 INFO simulation_152765.rerouting: step 12 block 0: 5 communications, 9 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.1285; qaoa=attempted feasible E=4.1285; executed=qaoa E=4.1285 (keep-current E=4.2274); routes changed=1
+2026-09-23 16:27:50,849 INFO simulation_152765.rerouting: step 12 rerouted s0012-w011-g000-q0_16 (q0 QPU0 -> q16 QPU5): 0-2-1-5 -> 0-3-1-5, cost 171.25 -> 182.79
+2026-09-23 16:27:50,849 INFO simulation_152765.rerouting: step 12 link 1-4 utilization 0.80 -> 0.80 after selective rerouting
+2026-09-23 16:27:50,849 INFO simulation_152765.rerouting: step 12 link 1-5 utilization 0.78 -> 0.78 after selective rerouting
+2026-09-23 16:27:51,794 INFO simulation_152765.rerouting: step 13 selective rerouting: 7 affected communications on congested links 0-2|1-4; 3 unaffected communications left untouched
+2026-09-23 16:27:51,794 INFO simulation_152765.rerouting: step 13 block 0: 6 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.9984; qaoa=attempted feasible E=4.9994; executed=qaoa E=4.9994 (keep-current E=5.8052); routes changed=2
+2026-09-23 16:27:51,794 INFO simulation_152765.rerouting: step 13 block 1: 1 communications, 1 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.0000; qaoa=attempted feasible E=1.0000; executed=qaoa E=1.0000 (keep-current E=1.0000); routes changed=0
+2026-09-23 16:27:51,795 INFO simulation_152765.rerouting: step 13 rerouted s0013-w012-g002-q2_5 (q2 QPU0 -> q5 QPU4): 0-2-1-4 -> 0-3-1-4, cost 302.98 -> 295.20
+2026-09-23 16:27:51,795 INFO simulation_152765.rerouting: step 13 rerouted s0013-w012-g010-q11_14 (q11 QPU2 -> q14 QPU3): 2-0-3 -> 2-1-3, cost 131.21 -> 146.31
+2026-09-23 16:27:51,795 INFO simulation_152765.rerouting: step 13 link 0-2 utilization 0.71 -> 0.43 after selective rerouting
+2026-09-23 16:27:51,795 INFO simulation_152765.rerouting: step 13 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:52,661 INFO simulation_152765.rerouting: step 14 selective rerouting: 7 affected communications on congested links 0-2|1-2|1-4; 1 unaffected communications left untouched
+2026-09-23 16:27:52,661 INFO simulation_152765.rerouting: step 14 block 0: 6 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.5168; qaoa=attempted feasible E=4.5168; executed=qaoa E=4.5168 (keep-current E=5.4798); routes changed=1
+2026-09-23 16:27:52,661 INFO simulation_152765.rerouting: step 14 block 1: 1 communications, 1 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.0000; qaoa=attempted feasible E=1.0000; executed=qaoa E=1.0000 (keep-current E=1.0000); routes changed=0
+2026-09-23 16:27:52,661 INFO simulation_152765.rerouting: step 14 rerouted s0013-w012-g008-q9_22 (q9 QPU4 -> q22 QPU0): 4-1-2-0 -> 4-1-3-0, cost 376.17 -> 237.23
+2026-09-23 16:27:52,661 INFO simulation_152765.rerouting: step 14 link 0-2 utilization 0.71 -> 0.57 after selective rerouting
+2026-09-23 16:27:52,661 INFO simulation_152765.rerouting: step 14 link 1-2 utilization 0.67 -> 0.56 after selective rerouting
+2026-09-23 16:27:52,661 INFO simulation_152765.rerouting: step 14 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:52,907 INFO simulation_152765.rerouting: step 15 selective rerouting: 3 affected communications on congested links 1-3|1-4; 1 unaffected communications left untouched
+2026-09-23 16:27:52,907 INFO simulation_152765.rerouting: step 15 block 0: 3 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.7064; qaoa=attempted feasible E=1.7064; executed=qaoa E=1.7064 (keep-current E=1.9501); routes changed=1
+2026-09-23 16:27:52,907 INFO simulation_152765.rerouting: step 15 rerouted s0014-w013-g005-q5_20 (q5 QPU4 -> q20 QPU3): 4-1-3 -> 4-1-2-0-3, cost 282.47 -> 235.70
+2026-09-23 16:27:52,907 INFO simulation_152765.rerouting: step 15 link 1-3 utilization 0.60 -> 0.50 after selective rerouting
+2026-09-23 16:27:52,907 INFO simulation_152765.rerouting: step 15 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:53,838 INFO simulation_152765.rerouting: step 16 selective rerouting: 7 affected communications on congested links 0-2|1-4; 3 unaffected communications left untouched
+2026-09-23 16:27:53,838 INFO simulation_152765.rerouting: step 16 block 0: 6 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=5.5335; qaoa=attempted feasible E=5.5335; executed=qaoa E=5.5335 (keep-current E=5.5335); routes changed=0
+2026-09-23 16:27:53,838 INFO simulation_152765.rerouting: step 16 block 1: 1 communications, 1 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.0000; qaoa=attempted feasible E=1.0000; executed=qaoa E=1.0000 (keep-current E=1.0000); routes changed=0
+2026-09-23 16:27:53,838 INFO simulation_152765.rerouting: step 16 link 0-2 utilization 0.86 -> 0.86 after selective rerouting
+2026-09-23 16:27:53,838 INFO simulation_152765.rerouting: step 16 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:54,140 INFO simulation_152765.rerouting: step 17 selective rerouting: 3 affected communications on congested links 1-4; 5 unaffected communications left untouched
+2026-09-23 16:27:54,140 INFO simulation_152765.rerouting: step 17 block 0: 3 communications, 5 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.4334; qaoa=attempted feasible E=2.4334; executed=qaoa E=2.4334 (keep-current E=2.4334); routes changed=0
+2026-09-23 16:27:54,140 INFO simulation_152765.rerouting: step 17 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:54,476 INFO simulation_152765.rerouting: step 18 selective rerouting: 4 affected communications on congested links 1-4|1-5; 4 unaffected communications left untouched
+2026-09-23 16:27:54,476 INFO simulation_152765.rerouting: step 18 block 0: 4 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=5.2345; qaoa=attempted feasible E=5.2345; executed=qaoa E=5.2345 (keep-current E=5.2345); routes changed=0
+2026-09-23 16:27:54,476 INFO simulation_152765.rerouting: step 18 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:54,476 INFO simulation_152765.rerouting: step 18 link 1-5 utilization 0.75 -> 0.75 after selective rerouting
+2026-09-23 16:27:55,586 INFO simulation_152765.rerouting: step 19 selective rerouting: 9 affected communications on congested links 0-2|1-4; 1 unaffected communications left untouched
+2026-09-23 16:27:55,586 INFO simulation_152765.rerouting: step 19 block 0: 6 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.8032; qaoa=attempted feasible E=4.8032; executed=qaoa E=4.8032 (keep-current E=6.1621); routes changed=1
+2026-09-23 16:27:55,586 INFO simulation_152765.rerouting: step 19 block 1: 3 communications, 5 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.1140; qaoa=attempted feasible E=2.1140; executed=qaoa E=2.1140 (keep-current E=2.1140); routes changed=0
+2026-09-23 16:27:55,586 INFO simulation_152765.rerouting: step 19 rerouted s0016-w015-g011-q15_22 (q15 QPU4 -> q22 QPU0): 4-1-2-0 -> 4-1-3-0, cost 343.94 -> 240.45
+2026-09-23 16:27:55,586 INFO simulation_152765.rerouting: step 19 link 0-2 utilization 1.00 -> 0.86 after selective rerouting
+2026-09-23 16:27:55,586 INFO simulation_152765.rerouting: step 19 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:56,611 INFO simulation_152765.rerouting: step 20 selective rerouting: 8 affected communications on congested links 1-2|1-4|1-5; 1 unaffected communications left untouched
+2026-09-23 16:27:56,611 INFO simulation_152765.rerouting: step 20 block 0: 6 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=5.2340; qaoa=attempted feasible E=5.2340; executed=qaoa E=5.2340 (keep-current E=5.9907); routes changed=1
+2026-09-23 16:27:56,611 INFO simulation_152765.rerouting: step 20 block 1: 2 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.2859; qaoa=attempted feasible E=1.2859; executed=qaoa E=1.2859 (keep-current E=1.2859); routes changed=0
+2026-09-23 16:27:56,611 INFO simulation_152765.rerouting: step 20 rerouted s0020-w003-g011-q17_22 (q17 QPU5 -> q22 QPU0): 5-1-2-0 -> 5-1-3-0, cost 233.00 -> 153.53
+2026-09-23 16:27:56,611 INFO simulation_152765.rerouting: step 20 link 1-2 utilization 0.78 -> 0.67 after selective rerouting
+2026-09-23 16:27:56,611 INFO simulation_152765.rerouting: step 20 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:56,611 INFO simulation_152765.rerouting: step 20 link 1-5 utilization 0.62 -> 0.62 after selective rerouting
+2026-09-23 16:27:57,193 INFO simulation_152765.rerouting: step 21 selective rerouting: 5 affected communications on congested links 1-2|1-4|1-5; 1 unaffected communications left untouched
+2026-09-23 16:27:57,193 INFO simulation_152765.rerouting: step 21 block 0: 5 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.2290; qaoa=attempted feasible E=4.2290; executed=qaoa E=4.2290 (keep-current E=4.2290); routes changed=0
+2026-09-23 16:27:57,193 INFO simulation_152765.rerouting: step 21 link 1-2 utilization 0.67 -> 0.67 after selective rerouting
+2026-09-23 16:27:57,193 INFO simulation_152765.rerouting: step 21 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:57,193 INFO simulation_152765.rerouting: step 21 link 1-5 utilization 0.62 -> 0.62 after selective rerouting
+2026-09-23 16:27:58,156 INFO simulation_152765.rerouting: step 22 selective rerouting: 10 affected communications on congested links 0-2|1-4|1-5; 2 unaffected communications left untouched
+2026-09-23 16:27:58,156 INFO simulation_152765.rerouting: step 22 block 0: 6 communications, 11 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.7918; qaoa=attempted feasible E=4.7918; executed=qaoa E=4.7918 (keep-current E=5.2562); routes changed=1
+2026-09-23 16:27:58,156 INFO simulation_152765.rerouting: step 22 block 1: 4 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.7066; qaoa=attempted feasible E=2.7066; executed=qaoa E=2.7066 (keep-current E=2.7066); routes changed=0
+2026-09-23 16:27:58,156 INFO simulation_152765.rerouting: step 22 rerouted s0022-w005-g002-q2_23 (q2 QPU0 -> q23 QPU1): 0-2-1 -> 0-3-1, cost 167.76 -> 72.46
+2026-09-23 16:27:58,156 INFO simulation_152765.rerouting: step 22 link 0-2 utilization 0.86 -> 0.71 after selective rerouting
+2026-09-23 16:27:58,156 INFO simulation_152765.rerouting: step 22 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:58,156 INFO simulation_152765.rerouting: step 22 link 1-5 utilization 0.75 -> 0.75 after selective rerouting
+2026-09-23 16:27:58,552 INFO simulation_152765.rerouting: step 23 selective rerouting: 5 affected communications on congested links 1-2|1-4; 2 unaffected communications left untouched
+2026-09-23 16:27:58,552 INFO simulation_152765.rerouting: step 23 block 0: 5 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.6873; qaoa=attempted feasible E=2.6873; executed=qaoa E=2.6873 (keep-current E=3.5681); routes changed=2
+2026-09-23 16:27:58,552 INFO simulation_152765.rerouting: step 23 rerouted s0021-w004-g004-q5_17 (q5 QPU4 -> q17 QPU0): 4-1-2-0 -> 4-1-3-0, cost 305.04 -> 334.57
+2026-09-23 16:27:58,552 INFO simulation_152765.rerouting: step 23 rerouted s0023-w006-g000-q0_2 (q0 QPU5 -> q2 QPU0): 5-1-2-0 -> 5-1-3-0, cost 155.47 -> 187.02
+2026-09-23 16:27:58,552 INFO simulation_152765.rerouting: step 23 link 1-2 utilization 0.67 -> 0.44 after selective rerouting
+2026-09-23 16:27:58,552 INFO simulation_152765.rerouting: step 23 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:58,819 INFO simulation_152765.rerouting: step 24 selective rerouting: 4 affected communications on congested links 1-4; 6 unaffected communications left untouched
+2026-09-23 16:27:58,820 INFO simulation_152765.rerouting: step 24 block 0: 4 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=8.5044; qaoa=attempted feasible E=8.5044; executed=qaoa E=8.5044 (keep-current E=8.5044); routes changed=0
+2026-09-23 16:27:58,820 INFO simulation_152765.rerouting: step 24 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:59,295 INFO simulation_152765.rerouting: step 25 selective rerouting: 5 affected communications on congested links 1-2|1-4|1-5; 1 unaffected communications left untouched
+2026-09-23 16:27:59,295 INFO simulation_152765.rerouting: step 25 block 0: 5 communications, 9 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.2599; qaoa=attempted feasible E=3.2599; executed=qaoa E=3.2599 (keep-current E=3.7053); routes changed=1
+2026-09-23 16:27:59,295 INFO simulation_152765.rerouting: step 25 rerouted s0025-w008-g000-q0_6 (q0 QPU5 -> q6 QPU0): 5-1-2-0 -> 5-1-3-0, cost 238.50 -> 179.01
+2026-09-23 16:27:59,295 INFO simulation_152765.rerouting: step 25 link 1-2 utilization 0.67 -> 0.56 after selective rerouting
+2026-09-23 16:27:59,295 INFO simulation_152765.rerouting: step 25 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:59,295 INFO simulation_152765.rerouting: step 25 link 1-5 utilization 0.75 -> 0.75 after selective rerouting
+2026-09-23 16:27:59,718 INFO simulation_152765.rerouting: step 26 selective rerouting: 8 affected communications on congested links 1-4|1-5; 3 unaffected communications left untouched
+2026-09-23 16:27:59,718 INFO simulation_152765.rerouting: step 26 block 0: 8 communications, 8 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=20.1832; qaoa=attempted feasible E=20.1832; executed=qaoa E=20.1832 (keep-current E=20.1832); routes changed=0
+2026-09-23 16:27:59,718 INFO simulation_152765.rerouting: step 26 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:27:59,718 INFO simulation_152765.rerouting: step 26 link 1-5 utilization 0.75 -> 0.75 after selective rerouting
+2026-09-23 16:28:00,113 INFO simulation_152765.rerouting: step 27 selective rerouting: 3 affected communications on congested links 1-4; 6 unaffected communications left untouched
+2026-09-23 16:28:00,113 INFO simulation_152765.rerouting: step 27 block 0: 3 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.0522; qaoa=attempted feasible E=3.0522; executed=qaoa E=3.0522 (keep-current E=3.0522); routes changed=0
+2026-09-23 16:28:00,113 INFO simulation_152765.rerouting: step 27 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:00,972 INFO simulation_152765.rerouting: step 28 selective rerouting: 8 affected communications on congested links 1-2|1-4; 2 unaffected communications left untouched
+2026-09-23 16:28:00,972 INFO simulation_152765.rerouting: step 28 block 0: 6 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.8181; qaoa=attempted feasible E=4.8181; executed=qaoa E=4.8181 (keep-current E=5.5946); routes changed=2
+2026-09-23 16:28:00,972 INFO simulation_152765.rerouting: step 28 block 1: 2 communications, 2 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.5417; qaoa=attempted feasible E=2.5417; executed=qaoa E=2.5417 (keep-current E=2.5417); routes changed=0
+2026-09-23 16:28:00,972 INFO simulation_152765.rerouting: step 28 rerouted s0026-w009-g005-q7_11 (q7 QPU4 -> q11 QPU2): 4-1-2 -> 4-1-3-0-2, cost 297.68 -> 261.48
+2026-09-23 16:28:00,972 INFO simulation_152765.rerouting: step 28 rerouted s0026-w009-g006-q12_18 (q12 QPU4 -> q18 QPU2): 4-1-2 -> 4-1-3-0-2, cost 297.68 -> 261.48
+2026-09-23 16:28:00,972 INFO simulation_152765.rerouting: step 28 link 1-2 utilization 0.75 -> 0.50 after selective rerouting
+2026-09-23 16:28:00,972 INFO simulation_152765.rerouting: step 28 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:01,057 INFO simulation_152765.rerouting: step 29 selective rerouting: 1 affected communications on congested links 1-4; 7 unaffected communications left untouched
+2026-09-23 16:28:01,057 INFO simulation_152765.rerouting: step 29 block 0: 1 communications, 1 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.0000; qaoa=attempted feasible E=1.0000; executed=qaoa E=1.0000 (keep-current E=1.0000); routes changed=0
+2026-09-23 16:28:01,057 INFO simulation_152765.rerouting: step 29 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:02,026 INFO simulation_152765.rerouting: step 30 selective rerouting: 6 affected communications on congested links 0-2|1-2|1-4; 2 unaffected communications left untouched
+2026-09-23 16:28:02,026 INFO simulation_152765.rerouting: step 30 block 0: 6 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.6715; qaoa=attempted feasible E=4.9106; executed=qaoa E=4.9106 (keep-current E=6.3488); routes changed=3
+2026-09-23 16:28:02,026 INFO simulation_152765.rerouting: step 30 rerouted s0028-w011-g008-q9_17 (q9 QPU4 -> q17 QPU0): 4-1-2-0 -> 4-1-3-0, cost 401.87 -> 308.73
+2026-09-23 16:28:02,026 INFO simulation_152765.rerouting: step 30 rerouted s0030-w013-g001-q1_18 (q1 QPU3 -> q18 QPU2): 3-0-2 -> 3-1-2, cost 161.74 -> 154.87
+2026-09-23 16:28:02,026 INFO simulation_152765.rerouting: step 30 rerouted s0030-w013-g011-q13_17 (q13 QPU5 -> q17 QPU0): 5-1-2-0 -> 5-1-3-0, cost 257.12 -> 159.36
+2026-09-23 16:28:02,026 INFO simulation_152765.rerouting: step 30 link 0-2 utilization 0.88 -> 0.50 after selective rerouting
+2026-09-23 16:28:02,026 INFO simulation_152765.rerouting: step 30 link 1-2 utilization 0.62 -> 0.50 after selective rerouting
+2026-09-23 16:28:02,026 INFO simulation_152765.rerouting: step 30 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:02,414 INFO simulation_152765.rerouting: step 31 selective rerouting: 4 affected communications on congested links 1-2|1-4; 1 unaffected communications left untouched
+2026-09-23 16:28:02,414 INFO simulation_152765.rerouting: step 31 block 0: 4 communications, 7 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.9880; qaoa=attempted feasible E=2.9880; executed=qaoa E=2.9880 (keep-current E=3.3279); routes changed=1
+2026-09-23 16:28:02,414 INFO simulation_152765.rerouting: step 31 rerouted s0029-w012-g008-q9_22 (q9 QPU4 -> q22 QPU0): 4-1-2-0 -> 4-1-3-0, cost 300.92 -> 242.46
+2026-09-23 16:28:02,414 INFO simulation_152765.rerouting: step 31 link 1-2 utilization 0.62 -> 0.50 after selective rerouting
+2026-09-23 16:28:02,414 INFO simulation_152765.rerouting: step 31 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:02,622 INFO simulation_152765.rerouting: step 32 selective rerouting: 1 affected communications on congested links 1-4; 7 unaffected communications left untouched
+2026-09-23 16:28:02,622 INFO simulation_152765.rerouting: step 32 block 0: 1 communications, 2 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.9004; qaoa=attempted feasible E=0.9004; executed=qaoa E=0.9004 (keep-current E=0.9004); routes changed=0
+2026-09-23 16:28:02,622 INFO simulation_152765.rerouting: step 32 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:02,901 INFO simulation_152765.rerouting: step 33 selective rerouting: 2 affected communications on congested links 1-4; 5 unaffected communications left untouched
+2026-09-23 16:28:02,901 INFO simulation_152765.rerouting: step 33 block 0: 2 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.9751; qaoa=attempted feasible E=1.9751; executed=qaoa E=1.9751 (keep-current E=1.9751); routes changed=0
+2026-09-23 16:28:02,901 INFO simulation_152765.rerouting: step 33 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:03,311 INFO simulation_152765.rerouting: step 34 selective rerouting: 5 affected communications on congested links 1-4|1-5; 6 unaffected communications left untouched
+2026-09-23 16:28:03,311 INFO simulation_152765.rerouting: step 34 block 0: 5 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.2175; qaoa=attempted feasible E=3.2175; executed=qaoa E=3.2175 (keep-current E=3.2175); routes changed=0
+2026-09-23 16:28:03,311 INFO simulation_152765.rerouting: step 34 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:03,311 INFO simulation_152765.rerouting: step 34 link 1-5 utilization 0.67 -> 0.67 after selective rerouting
+2026-09-23 16:28:03,542 INFO simulation_152765.rerouting: step 35 selective rerouting: 3 affected communications on congested links 1-4; 7 unaffected communications left untouched
+2026-09-23 16:28:03,542 INFO simulation_152765.rerouting: step 35 block 0: 3 communications, 5 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=6.1711; qaoa=attempted feasible E=6.1711; executed=qaoa E=6.1711 (keep-current E=6.1711); routes changed=0
+2026-09-23 16:28:03,542 INFO simulation_152765.rerouting: step 35 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:04,097 INFO simulation_152765.rerouting: step 36 selective rerouting: 5 affected communications on congested links 1-2|1-4; 2 unaffected communications left untouched
+2026-09-23 16:28:04,097 INFO simulation_152765.rerouting: step 36 block 0: 5 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.2684; qaoa=attempted feasible E=4.2684; executed=qaoa E=4.2684 (keep-current E=5.3415); routes changed=2
+2026-09-23 16:28:04,097 INFO simulation_152765.rerouting: step 36 rerouted s0034-w001-g006-q6_18 (q6 QPU0 -> q18 QPU4): 0-2-1-4 -> 0-3-1-4, cost 325.40 -> 233.05
+2026-09-23 16:28:04,097 INFO simulation_152765.rerouting: step 36 rerouted s0036-w003-g000-q0_2 (q0 QPU5 -> q2 QPU0): 5-1-2-0 -> 5-1-3-0, cost 184.04 -> 85.08
+2026-09-23 16:28:04,097 INFO simulation_152765.rerouting: step 36 link 1-2 utilization 0.88 -> 0.62 after selective rerouting
+2026-09-23 16:28:04,097 INFO simulation_152765.rerouting: step 36 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:04,454 INFO simulation_152765.rerouting: step 37 selective rerouting: 3 affected communications on congested links 1-3|1-4; 6 unaffected communications left untouched
+2026-09-23 16:28:04,454 INFO simulation_152765.rerouting: step 37 block 0: 3 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.6631; qaoa=attempted feasible E=4.6631; executed=qaoa E=4.6631 (keep-current E=8.8493); routes changed=1
+2026-09-23 16:28:04,454 INFO simulation_152765.rerouting: step 37 rerouted s0035-w002-g009-q14_18 (q14 QPU3 -> q18 QPU4): 3-1-4 -> 3-0-2-1-4, cost 318.57 -> 242.50
+2026-09-23 16:28:04,454 INFO simulation_152765.rerouting: step 37 link 1-3 utilization 0.86 -> 0.71 after selective rerouting
+2026-09-23 16:28:04,454 INFO simulation_152765.rerouting: step 37 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:04,631 INFO simulation_152765.rerouting: step 38 selective rerouting: 2 affected communications on congested links 1-4; 3 unaffected communications left untouched
+2026-09-23 16:28:04,632 INFO simulation_152765.rerouting: step 38 block 0: 2 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.1841; qaoa=attempted feasible E=2.1841; executed=qaoa E=2.1841 (keep-current E=2.1841); routes changed=0
+2026-09-23 16:28:04,632 INFO simulation_152765.rerouting: step 38 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:04,738 INFO simulation_152765.rerouting: step 39 selective rerouting: 2 affected communications on congested links 1-4; 6 unaffected communications left untouched
+2026-09-23 16:28:04,738 INFO simulation_152765.rerouting: step 39 block 0: 2 communications, 2 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.5417; qaoa=attempted feasible E=2.5417; executed=qaoa E=2.5417 (keep-current E=2.5417); routes changed=0
+2026-09-23 16:28:04,738 INFO simulation_152765.rerouting: step 39 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:05,723 INFO simulation_152765.rerouting: step 40 selective rerouting: 6 affected communications on congested links 0-2|1-4; 6 unaffected communications left untouched
+2026-09-23 16:28:05,723 INFO simulation_152765.rerouting: step 40 block 0: 6 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.2840; qaoa=attempted feasible E=4.2840; executed=qaoa E=4.2840 (keep-current E=4.6239); routes changed=1
+2026-09-23 16:28:05,723 INFO simulation_152765.rerouting: step 40 rerouted s0040-w007-g006-q6_23 (q6 QPU0 -> q23 QPU1): 0-2-1 -> 0-3-1, cost 138.13 -> 68.56
+2026-09-23 16:28:05,723 INFO simulation_152765.rerouting: step 40 link 0-2 utilization 0.71 -> 0.57 after selective rerouting
+2026-09-23 16:28:05,723 INFO simulation_152765.rerouting: step 40 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:05,959 INFO simulation_152765.rerouting: step 41 selective rerouting: 3 affected communications on congested links 1-3|1-4; 6 unaffected communications left untouched
+2026-09-23 16:28:05,959 INFO simulation_152765.rerouting: step 41 block 0: 3 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.1067; qaoa=attempted feasible E=2.1067; executed=qaoa E=2.1067 (keep-current E=2.1067); routes changed=0
+2026-09-23 16:28:05,959 INFO simulation_152765.rerouting: step 41 link 1-3 utilization 0.71 -> 0.71 after selective rerouting
+2026-09-23 16:28:05,959 INFO simulation_152765.rerouting: step 41 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:06,334 INFO simulation_152765.rerouting: step 42 selective rerouting: 5 affected communications on congested links 1-2|1-4; 3 unaffected communications left untouched
+2026-09-23 16:28:06,335 INFO simulation_152765.rerouting: step 42 block 0: 5 communications, 9 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.1637; qaoa=attempted feasible E=3.1637; executed=qaoa E=3.1637 (keep-current E=3.2090); routes changed=1
+2026-09-23 16:28:06,335 INFO simulation_152765.rerouting: step 42 rerouted s0042-w009-g011-q22_23 (q22 QPU0 -> q23 QPU1): 0-2-1 -> 0-3-1, cost 133.23 -> 74.22
+2026-09-23 16:28:06,335 INFO simulation_152765.rerouting: step 42 link 1-2 utilization 0.67 -> 0.56 after selective rerouting
+2026-09-23 16:28:06,335 INFO simulation_152765.rerouting: step 42 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:07,264 INFO simulation_152765.rerouting: step 43 selective rerouting: 7 affected communications on congested links 0-2|1-3|1-4; 3 unaffected communications left untouched
+2026-09-23 16:28:07,264 INFO simulation_152765.rerouting: step 43 block 0: 6 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=5.1513; qaoa=attempted feasible E=5.1782; executed=qaoa E=5.1782 (keep-current E=5.3123); routes changed=1
+2026-09-23 16:28:07,264 INFO simulation_152765.rerouting: step 43 block 1: 1 communications, 1 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.0000; qaoa=attempted feasible E=1.0000; executed=qaoa E=1.0000 (keep-current E=1.0000); routes changed=0
+2026-09-23 16:28:07,264 INFO simulation_152765.rerouting: step 43 rerouted s0043-w010-g002-q2_23 (q2 QPU0 -> q23 QPU1): 0-2-1 -> 0-3-1, cost 129.88 -> 205.30
+2026-09-23 16:28:07,264 INFO simulation_152765.rerouting: step 43 link 0-2 utilization 0.67 -> 0.50 after selective rerouting
+2026-09-23 16:28:07,264 INFO simulation_152765.rerouting: step 43 link 1-3 utilization 0.86 -> 1.00 after selective rerouting
+2026-09-23 16:28:07,264 INFO simulation_152765.rerouting: step 43 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:08,043 INFO simulation_152765.rerouting: step 44 selective rerouting: 6 affected communications on congested links 1-2|1-3|1-4; 2 unaffected communications left untouched
+2026-09-23 16:28:08,043 INFO simulation_152765.rerouting: step 44 block 0: 6 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.7283; qaoa=attempted feasible E=7.4228; executed=qaoa E=7.4228 (keep-current E=4.7283); routes changed=1
+2026-09-23 16:28:08,043 INFO simulation_152765.rerouting: step 44 rerouted s0043-w010-g010-q17_19 (q17 QPU0 -> q19 QPU4): 0-2-1-4 -> 0-3-1-4, cost 305.07 -> 315.46
+2026-09-23 16:28:08,043 INFO simulation_152765.rerouting: step 44 link 1-2 utilization 0.78 -> 0.67 after selective rerouting
+2026-09-23 16:28:08,043 INFO simulation_152765.rerouting: step 44 link 1-3 utilization 0.62 -> 0.75 after selective rerouting
+2026-09-23 16:28:08,043 INFO simulation_152765.rerouting: step 44 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:08,360 INFO simulation_152765.rerouting: step 45 selective rerouting: 3 affected communications on congested links 1-4; 7 unaffected communications left untouched
+2026-09-23 16:28:08,361 INFO simulation_152765.rerouting: step 45 block 0: 3 communications, 5 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=6.0599; qaoa=attempted feasible E=6.0599; executed=qaoa E=6.0599 (keep-current E=6.0599); routes changed=0
+2026-09-23 16:28:08,361 INFO simulation_152765.rerouting: step 45 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:08,856 INFO simulation_152765.rerouting: step 46 selective rerouting: 10 affected communications on congested links 1-3|1-4|1-5; 1 unaffected communications left untouched
+2026-09-23 16:28:08,856 INFO simulation_152765.rerouting: step 46 block 0: 7 communications, 7 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=21.3571; qaoa=attempted feasible E=21.3571; executed=qaoa E=21.3571 (keep-current E=21.3571); routes changed=0
+2026-09-23 16:28:08,856 INFO simulation_152765.rerouting: step 46 block 1: 3 communications, 5 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.2066; qaoa=attempted feasible E=2.2066; executed=qaoa E=2.2066 (keep-current E=2.2066); routes changed=0
+2026-09-23 16:28:08,856 INFO simulation_152765.rerouting: step 46 link 1-3 utilization 0.62 -> 0.62 after selective rerouting
+2026-09-23 16:28:08,856 INFO simulation_152765.rerouting: step 46 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:08,856 INFO simulation_152765.rerouting: step 46 link 1-5 utilization 0.62 -> 0.62 after selective rerouting
+2026-09-23 16:28:09,020 INFO simulation_152765.rerouting: step 47 selective rerouting: 2 affected communications on congested links 1-4|1-5; 3 unaffected communications left untouched
+2026-09-23 16:28:09,020 INFO simulation_152765.rerouting: step 47 block 0: 2 communications, 2 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.5547; qaoa=attempted feasible E=1.5547; executed=qaoa E=1.5547 (keep-current E=1.5547); routes changed=0
+2026-09-23 16:28:09,020 INFO simulation_152765.rerouting: step 47 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:09,020 INFO simulation_152765.rerouting: step 47 link 1-5 utilization 0.62 -> 0.62 after selective rerouting
+2026-09-23 16:28:09,429 INFO simulation_152765.rerouting: step 48 selective rerouting: 4 affected communications on congested links 1-4; 8 unaffected communications left untouched
+2026-09-23 16:28:09,429 INFO simulation_152765.rerouting: step 48 block 0: 4 communications, 7 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.8371; qaoa=attempted feasible E=3.8371; executed=qaoa E=3.8371 (keep-current E=3.8371); routes changed=0
+2026-09-23 16:28:09,429 INFO simulation_152765.rerouting: step 48 link 1-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:28:09,867 INFO simulation_152765.rerouting: step 50 selective rerouting: 4 affected communications on congested links 1-4; 5 unaffected communications left untouched
+2026-09-23 16:28:09,867 INFO simulation_152765.rerouting: step 50 block 0: 4 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.7712; qaoa=attempted feasible E=4.7712; executed=qaoa E=4.7712 (keep-current E=4.7712); routes changed=0
+2026-09-23 16:28:09,867 INFO simulation_152765.rerouting: step 50 link 1-4 utilization 1.00 -> 1.00 after selective rerouting

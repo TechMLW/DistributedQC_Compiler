@@ -1,0 +1,431 @@
+{
+  "simulation_id": "simulation_814372",
+  "created_utc": "2026-09-23T10:56:18.846694+00:00",
+  "code_environment": {
+    "python": "3.13.15",
+    "qiskit": "2.5.1"
+  },
+  "master_seed": 814372,
+  "derived_seeds": {
+    "circuit_seed": 803812007,
+    "topology_seed": 1946760434,
+    "partition_seed": 2279655843,
+    "network_seed": 948084950,
+    "qaoa_seed": 449065533
+  },
+  "experiment": {
+    "controls": {
+      "num_logical_qubits": 24,
+      "num_qpus": 6,
+      "qpu_capacities": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4
+      },
+      "benchmark": "layered_random",
+      "layers": 16,
+      "circuit_file": null,
+      "topology": "random_connected",
+      "steps": 50,
+      "congestion_threshold": 0.6,
+      "link_property_ranges": {
+        "latency": [
+          5,
+          30
+        ],
+        "fidelity": [
+          0.9,
+          0.995
+        ],
+        "capacity": [
+          4,
+          12
+        ],
+        "bell_pair_pool": [
+          24,
+          64
+        ],
+        "bell_pair_regeneration": [
+          8.0,
+          20.0
+        ]
+      },
+      "extra_link_probability": 0.25,
+      "use_quantum": true,
+      "run_baseline": true
+    },
+    "model_parameters": {
+      "BELL_PAIRS_PER_UNIT_LOAD": 1.0,
+      "CANDIDATE_ROUTES_PER_PAIR": 4,
+      "CLASSICAL_EXHAUSTIVE_LIMIT": 20000,
+      "CONGESTION_PERSISTENCE_WINDOWS": 2,
+      "EVOLUTION_CAPACITY_CHANGE_PROBABILITY": 0.1,
+      "EVOLUTION_CAPACITY_MAX_DEVIATION": 2,
+      "EVOLUTION_FIDELITY_MAX_DEGRADATION": 0.08,
+      "EVOLUTION_FIDELITY_MAX_IMPROVEMENT": 0.005,
+      "EVOLUTION_FIDELITY_STEP": 0.004,
+      "EVOLUTION_LATENCY_BOUNDS_FRACTION": [
+        0.5,
+        2.0
+      ],
+      "EVOLUTION_LATENCY_STEP_FRACTION": 0.08,
+      "EVOLUTION_MEAN_REVERSION": 0.15,
+      "EVOLUTION_REGENERATION_JITTER": 0.25,
+      "LINK_BELL_PAIR_POOL_RANGE": [
+        24,
+        64
+      ],
+      "LINK_BELL_PAIR_REGENERATION_RANGE": [
+        8.0,
+        20.0
+      ],
+      "LINK_CAPACITY_RANGE": [
+        4,
+        12
+      ],
+      "LINK_FIDELITY_RANGE": [
+        0.9,
+        0.995
+      ],
+      "LINK_LATENCY_RANGE": [
+        5,
+        30
+      ],
+      "LOAD_PER_REMOTE_INTERACTION": 1.0,
+      "MAX_EXTRA_HOPS": 2,
+      "MAX_QUEUE_AGE_WINDOWS": 8,
+      "PARTITION_KL_RESTARTS": 8,
+      "PARTITION_REFINEMENT_PASSES": 3,
+      "QAOA_MAXITER": 60,
+      "QAOA_MAX_QUBITS": 12,
+      "QAOA_REPS": 2,
+      "QAOA_SELECTION_POLICY": "qaoa_first",
+      "QAOA_SHOTS": 1024,
+      "QUBO_CAPACITY_PENALTY_SCALE": 4.0,
+      "QUBO_CONTENTION_WEIGHT": 1.5,
+      "QUBO_ONEHOT_PENALTY_SCALE": 3.0,
+      "REPARTITION_COOLDOWN_WINDOWS": 3,
+      "REPARTITION_DEFERRAL_PENALTY": 200.0,
+      "REPARTITION_IMPROVEMENT_MARGIN": 0.05,
+      "REPARTITION_LOOKAHEAD_WINDOWS": null,
+      "REPARTITION_MAX_MOVES_PER_EVENT": 2,
+      "REPARTITION_MIGRATION_WEIGHT": 1.0,
+      "REPARTITION_TRIGGER_REASONS": [
+        "congestion",
+        "resource"
+      ],
+      "RESOURCE_DEFERRAL_PERSISTENCE_WINDOWS": 2,
+      "ROUTE_COST_BELL_SCARCITY_WEIGHT": 20.0,
+      "ROUTE_COST_CONGESTION_WEIGHT": 60.0,
+      "ROUTE_COST_HOP_WEIGHT": 5.0,
+      "ROUTE_COST_INFIDELITY_WEIGHT": 100.0,
+      "ROUTE_COST_LATENCY_WEIGHT": 1.0,
+      "ROUTE_COST_UTILIZATION_WEIGHT": 20.0,
+      "TOPOLOGY_EXTRA_LINK_PROBABILITY": 0.25,
+      "TRIGGER_FIDELITY_LIMIT": 0.85,
+      "TRIGGER_LATENCY_LIMIT": 45.0,
+      "USE_QUANTUM_OPTIMIZER": true,
+      "WINDOW_DURATION": 30.0
+    }
+  },
+  "stochastic_components": {
+    "circuit_structure": true,
+    "topology_edges": true,
+    "link_properties": true,
+    "network_evolution": true,
+    "partition_tie_breaking": true,
+    "qaoa": true
+  },
+  "circuit": {
+    "source": "benchmark:layered_random",
+    "num_qubits": 24,
+    "depth": 16,
+    "gate_count": 192,
+    "two_qubit_gate_count": 192,
+    "distinct_interaction_pairs": 133,
+    "operations": {
+      "cx": 192
+    },
+    "execution_windows": 16
+  },
+  "communication_graph": {
+    "num_logical_qubits": 24,
+    "num_interaction_edges": 133,
+    "total_interaction_weight": 192
+  },
+  "topology": {
+    "model": "random_connected",
+    "num_qpus": 6,
+    "num_physical_links": 8,
+    "connected": true,
+    "diameter_hops": 3,
+    "min_degree": 2,
+    "max_degree": 4,
+    "physical_links": [
+      "0-2",
+      "0-3",
+      "0-5",
+      "1-2",
+      "1-4",
+      "2-3",
+      "3-4",
+      "3-5"
+    ],
+    "total_link_capacity": 72
+  },
+  "link_properties_initial": [
+    {
+      "source": 0,
+      "destination": 2,
+      "latency": 29.0,
+      "fidelity": 0.905673,
+      "capacity": 12,
+      "bell_pair_pool": 33,
+      "bell_pair_regeneration": 12.474,
+      "available_bell_pairs": 33.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 29.0,
+        "fidelity": 0.905673,
+        "capacity": 12,
+        "bell_pair_pool": 33,
+        "bell_pair_regeneration": 12.474
+      }
+    },
+    {
+      "source": 0,
+      "destination": 3,
+      "latency": 20.0,
+      "fidelity": 0.985123,
+      "capacity": 10,
+      "bell_pair_pool": 28,
+      "bell_pair_regeneration": 16.299,
+      "available_bell_pairs": 28.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 20.0,
+        "fidelity": 0.985123,
+        "capacity": 10,
+        "bell_pair_pool": 28,
+        "bell_pair_regeneration": 16.299
+      }
+    },
+    {
+      "source": 0,
+      "destination": 5,
+      "latency": 25.0,
+      "fidelity": 0.97367,
+      "capacity": 12,
+      "bell_pair_pool": 50,
+      "bell_pair_regeneration": 19.132,
+      "available_bell_pairs": 50.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 25.0,
+        "fidelity": 0.97367,
+        "capacity": 12,
+        "bell_pair_pool": 50,
+        "bell_pair_regeneration": 19.132
+      }
+    },
+    {
+      "source": 1,
+      "destination": 2,
+      "latency": 22.0,
+      "fidelity": 0.987598,
+      "capacity": 12,
+      "bell_pair_pool": 50,
+      "bell_pair_regeneration": 8.88,
+      "available_bell_pairs": 50.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 22.0,
+        "fidelity": 0.987598,
+        "capacity": 12,
+        "bell_pair_pool": 50,
+        "bell_pair_regeneration": 8.88
+      }
+    },
+    {
+      "source": 1,
+      "destination": 4,
+      "latency": 16.0,
+      "fidelity": 0.935853,
+      "capacity": 11,
+      "bell_pair_pool": 50,
+      "bell_pair_regeneration": 19.949,
+      "available_bell_pairs": 50.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 16.0,
+        "fidelity": 0.935853,
+        "capacity": 11,
+        "bell_pair_pool": 50,
+        "bell_pair_regeneration": 19.949
+      }
+    },
+    {
+      "source": 2,
+      "destination": 3,
+      "latency": 26.0,
+      "fidelity": 0.972977,
+      "capacity": 5,
+      "bell_pair_pool": 29,
+      "bell_pair_regeneration": 19.463,
+      "available_bell_pairs": 29.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 26.0,
+        "fidelity": 0.972977,
+        "capacity": 5,
+        "bell_pair_pool": 29,
+        "bell_pair_regeneration": 19.463
+      }
+    },
+    {
+      "source": 3,
+      "destination": 4,
+      "latency": 17.0,
+      "fidelity": 0.908989,
+      "capacity": 4,
+      "bell_pair_pool": 64,
+      "bell_pair_regeneration": 19.586,
+      "available_bell_pairs": 64.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 17.0,
+        "fidelity": 0.908989,
+        "capacity": 4,
+        "bell_pair_pool": 64,
+        "bell_pair_regeneration": 19.586
+      }
+    },
+    {
+      "source": 3,
+      "destination": 5,
+      "latency": 24.0,
+      "fidelity": 0.983246,
+      "capacity": 6,
+      "bell_pair_pool": 28,
+      "bell_pair_regeneration": 12.876,
+      "available_bell_pairs": 28.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 24.0,
+        "fidelity": 0.983246,
+        "capacity": 6,
+        "bell_pair_pool": 28,
+        "bell_pair_regeneration": 12.876
+      }
+    }
+  ],
+  "initial_partition": {
+    "0": [
+      4,
+      5,
+      6,
+      20
+    ],
+    "1": [
+      0,
+      7,
+      9,
+      18
+    ],
+    "2": [
+      8,
+      10,
+      12,
+      19
+    ],
+    "3": [
+      1,
+      13,
+      15,
+      22
+    ],
+    "4": [
+      2,
+      3,
+      16,
+      23
+    ],
+    "5": [
+      11,
+      14,
+      17,
+      21
+    ]
+  },
+  "final_partition": {
+    "0": [
+      4,
+      5,
+      6,
+      20
+    ],
+    "1": [
+      0,
+      7,
+      9,
+      18
+    ],
+    "2": [
+      8,
+      10,
+      12,
+      19
+    ],
+    "3": [
+      1,
+      13,
+      15,
+      22
+    ],
+    "4": [
+      2,
+      3,
+      16,
+      23
+    ],
+    "5": [
+      11,
+      14,
+      17,
+      21
+    ]
+  },
+  "fingerprint": {
+    "circuit": "9d23750a41bfd5a8",
+    "communication_graph": "d0093e5f66a30f45",
+    "topology_links": "3d62e55469ed4b01",
+    "link_properties": "346ec247fff3a2ee",
+    "network_evolution": "11ae650f6cf44463",
+    "initial_partition": "343cd4fd5d8f9ded",
+    "final_partition": "343cd4fd5d8f9ded",
+    "metrics": "6ff23216854479b0",
+    "reroutes": "2ca4adadbe17261c",
+    "route_decisions": "3756381882f333d8"
+  },
+  "summary": {
+    "congestion_windows": 48,
+    "affected_communications": 204,
+    "selective_reroutes": 98,
+    "repartition_triggers": 23,
+    "repartitions_accepted": 0,
+    "logical_qubits_moved": 0,
+    "prevented_capacity_violations": 88,
+    "max_link_utilization": 1.0
+  }
+}

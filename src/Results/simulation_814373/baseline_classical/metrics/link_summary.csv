@@ -1,0 +1,8 @@
+link,baseline_latency,final_latency,baseline_fidelity,final_fidelity,baseline_capacity,final_capacity,bell_pair_pool,bell_pair_regeneration,final_available_bell_pairs,bell_pairs_consumed,final_active_load,peak_utilization,congested_windows,saturated_windows,rejected_reservations,congestion_threshold
+0-2,25.0,26.258,0.983904,0.988904,9,9,63,9.384,60.0,96.0,2.0,0.75,4,0,0,0.6
+0-3,22.0,24.128,0.910637,0.896663,8,8,64,16.963,62.0,85.0,1.0,0.625,3,0,0,0.6
+0-4,24.0,22.223,0.959797,0.948552,4,3,63,19.224,60.0,74.0,2.0,1.0,37,25,0,0.6
+1-3,10.0,9.928,0.915136,0.920136,6,6,51,16.825,47.0,139.0,1.0,1.0,29,10,0,0.6
+1-4,17.0,13.931,0.955963,0.951492,8,9,47,10.548,45.0,99.0,0.0,0.875,5,0,0,0.6
+2-3,11.0,10.633,0.98991,0.991093,6,6,52,12.23,49.0,99.0,0.0,1.0,1,0,0,0.6
+2-5,11.0,11.961,0.935357,0.933653,4,4,37,15.927,33.0,102.0,1.0,1.0,49,48,0,0.6

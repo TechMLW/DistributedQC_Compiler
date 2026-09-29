@@ -1,0 +1,60 @@
+2026-09-23 16:26:52,799 INFO classical_baseline_814372.repartition: step 9 repartition trigger reason=congestion (congestion) links=3-4 affected_qubits=[1, 2, 17, 23]
+2026-09-23 16:26:52,799 INFO classical_baseline_814372.repartition: step 9 evaluated 5 selective candidates; objective 13338.65 -> 13338.65 (communication 13338.65 -> 13338.65, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:52,799 INFO classical_baseline_814372.repartition: step 9 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:52,811 INFO classical_baseline_814372.repartition: step 10 repartition trigger reason=congestion (congestion) links=3-4 affected_qubits=[2, 13, 16, 21]
+2026-09-23 16:26:52,811 INFO classical_baseline_814372.repartition: step 10 evaluated 5 selective candidates; objective 8615.71 -> 8615.71 (communication 8615.71 -> 8615.71, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:52,811 INFO classical_baseline_814372.repartition: step 10 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:52,843 INFO classical_baseline_814372.repartition: step 15 repartition trigger reason=congestion (congestion) links=2-3|3-4 affected_qubits=[2, 8, 13, 17, 18, 20]
+2026-09-23 16:26:52,843 INFO classical_baseline_814372.repartition: step 15 evaluated 15 selective candidates; objective 11786.48 -> 11786.48 (communication 11786.48 -> 11786.48, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:52,843 INFO classical_baseline_814372.repartition: step 15 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:52,866 INFO classical_baseline_814372.repartition: step 16 repartition trigger reason=congestion (congestion) links=2-3|3-4 affected_qubits=[3, 7, 9, 14, 15, 22]
+2026-09-23 16:26:52,866 INFO classical_baseline_814372.repartition: step 16 evaluated 13 selective candidates; objective 12621.27 -> 12621.27 (communication 12621.27 -> 12621.27, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:52,866 INFO classical_baseline_814372.repartition: step 16 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:52,878 INFO classical_baseline_814372.repartition: step 17 repartition trigger reason=congestion (congestion) links=2-3|3-4 affected_qubits=[7, 13, 16, 22]
+2026-09-23 16:26:52,878 INFO classical_baseline_814372.repartition: step 17 evaluated 5 selective candidates; objective 14127.18 -> 14127.18 (communication 14127.18 -> 14127.18, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:52,878 INFO classical_baseline_814372.repartition: step 17 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:53,033 INFO classical_baseline_814372.repartition: step 18 repartition trigger reason=congestion (congestion) links=1-2|2-3|3-4 affected_qubits=[2, 3, 7, 8, 11, 12, 15, 16, 18, 19, 21, 23]
+2026-09-23 16:26:53,034 INFO classical_baseline_814372.repartition: step 18 evaluated 110 selective candidates; objective 12740.13 -> 12293.61 (communication 12740.13 -> 12171.01, deferred load 0.0 -> 0.0, migration 122.60)
+2026-09-23 16:26:53,034 INFO classical_baseline_814372.repartition: step 18 repartition rejected: improvement_below_margin
+2026-09-23 16:26:53,109 INFO classical_baseline_814372.repartition: step 19 repartition trigger reason=congestion (congestion) links=1-2|2-3|3-4 affected_qubits=[0, 3, 7, 8, 10, 11, 13, 23]
+2026-09-23 16:26:53,109 INFO classical_baseline_814372.repartition: step 19 evaluated 50 selective candidates; objective 13568.55 -> 13544.84 (communication 13568.55 -> 13472.73, deferred load 0.0 -> 0.0, migration 72.11)
+2026-09-23 16:26:53,109 INFO classical_baseline_814372.repartition: step 19 repartition rejected: improvement_below_margin
+2026-09-23 16:26:53,273 INFO classical_baseline_814372.repartition: step 20 repartition trigger reason=congestion (congestion) links=0-2|2-3|3-4 affected_qubits=[0, 2, 4, 5, 8, 10, 12, 13, 15, 17, 18, 20]
+2026-09-23 16:26:53,274 INFO classical_baseline_814372.repartition: step 20 evaluated 116 selective candidates; objective 13504.29 -> 13444.16 (communication 13504.29 -> 13372.30, deferred load 0.0 -> 0.0, migration 71.86)
+2026-09-23 16:26:53,274 INFO classical_baseline_814372.repartition: step 20 repartition rejected: improvement_below_margin
+2026-09-23 16:26:53,298 INFO classical_baseline_814372.repartition: step 21 repartition trigger reason=congestion (congestion) links=0-2|2-3 affected_qubits=[7, 8, 11, 14, 20, 23]
+2026-09-23 16:26:53,298 INFO classical_baseline_814372.repartition: step 21 evaluated 14 selective candidates; objective 14842.89 -> 14842.89 (communication 14842.89 -> 14842.89, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:53,298 INFO classical_baseline_814372.repartition: step 21 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:53,312 INFO classical_baseline_814372.repartition: step 22 repartition trigger reason=congestion (congestion) links=2-3 affected_qubits=[12, 21, 22, 23]
+2026-09-23 16:26:53,312 INFO classical_baseline_814372.repartition: step 22 evaluated 6 selective candidates; objective 14747.81 -> 14747.81 (communication 14747.81 -> 14747.81, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:53,312 INFO classical_baseline_814372.repartition: step 22 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:53,388 INFO classical_baseline_814372.repartition: step 23 repartition trigger reason=congestion (congestion) links=1-2|2-3|3-4 affected_qubits=[0, 2, 3, 5, 11, 12, 14, 16, 17, 21]
+2026-09-23 16:26:53,388 INFO classical_baseline_814372.repartition: step 23 evaluated 72 selective candidates; objective 11759.56 -> 11367.08 (communication 11159.56 -> 10846.89, deferred load 3.0 -> 2.0, migration 120.19)
+2026-09-23 16:26:53,388 INFO classical_baseline_814372.repartition: step 23 repartition rejected: improvement_below_margin
+2026-09-23 16:26:53,393 INFO classical_baseline_814372.repartition: step 24 repartition trigger reason=congestion (congestion) links=3-4 affected_qubits=[17, 23]
+2026-09-23 16:26:53,393 INFO classical_baseline_814372.repartition: step 24 evaluated 1 selective candidates; objective 18060.47 -> 18060.47 (communication 15660.47 -> 15660.47, deferred load 12.0 -> 12.0, migration 0.00)
+2026-09-23 16:26:53,393 INFO classical_baseline_814372.repartition: step 24 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:53,399 INFO classical_baseline_814372.repartition: step 25 repartition trigger reason=congestion (congestion) links=3-4 affected_qubits=[1, 2]
+2026-09-23 16:26:53,399 INFO classical_baseline_814372.repartition: step 25 evaluated 1 selective candidates; objective 12295.38 -> 12295.38 (communication 12295.38 -> 12295.38, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:53,399 INFO classical_baseline_814372.repartition: step 25 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:53,424 INFO classical_baseline_814372.repartition: step 26 repartition trigger reason=congestion (congestion) links=1-2|2-3 affected_qubits=[5, 9, 12, 16, 21, 23]
+2026-09-23 16:26:53,424 INFO classical_baseline_814372.repartition: step 26 evaluated 14 selective candidates; objective 9011.50 -> 9011.50 (communication 9011.50 -> 9011.50, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:53,424 INFO classical_baseline_814372.repartition: step 26 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:53,451 INFO classical_baseline_814372.repartition: step 31 repartition trigger reason=congestion (congestion) links=1-2 affected_qubits=[3, 9, 10, 18, 19, 20]
+2026-09-23 16:26:53,451 INFO classical_baseline_814372.repartition: step 31 evaluated 13 selective candidates; objective 9331.94 -> 9331.94 (communication 9331.94 -> 9331.94, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:53,451 INFO classical_baseline_814372.repartition: step 31 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:53,464 INFO classical_baseline_814372.repartition: step 33 repartition trigger reason=congestion (congestion) links=3-4 affected_qubits=[7, 13, 16, 22]
+2026-09-23 16:26:53,464 INFO classical_baseline_814372.repartition: step 33 evaluated 5 selective candidates; objective 10535.56 -> 10535.56 (communication 10535.56 -> 10535.56, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:53,464 INFO classical_baseline_814372.repartition: step 33 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:53,471 INFO classical_baseline_814372.repartition: step 34 repartition trigger reason=congestion (congestion) links=3-4 affected_qubits=[3, 15]
+2026-09-23 16:26:53,471 INFO classical_baseline_814372.repartition: step 34 evaluated 1 selective candidates; objective 9362.92 -> 9362.92 (communication 9362.92 -> 9362.92, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:53,471 INFO classical_baseline_814372.repartition: step 34 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:53,487 INFO classical_baseline_814372.repartition: step 39 repartition trigger reason=congestion (congestion) links=3-4 affected_qubits=[2, 3, 14, 17]
+2026-09-23 16:26:53,487 INFO classical_baseline_814372.repartition: step 39 evaluated 4 selective candidates; objective 10779.42 -> 10779.42 (communication 10779.42 -> 10779.42, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:53,487 INFO classical_baseline_814372.repartition: step 39 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:53,510 INFO classical_baseline_814372.repartition: step 41 repartition trigger reason=congestion (congestion) links=3-4 affected_qubits=[1, 2, 3, 7, 12, 22]
+2026-09-23 16:26:53,510 INFO classical_baseline_814372.repartition: step 41 evaluated 13 selective candidates; objective 11219.65 -> 11219.65 (communication 11219.65 -> 11219.65, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:53,510 INFO classical_baseline_814372.repartition: step 41 repartition rejected: no_improving_selective_move
+2026-09-23 16:26:53,515 INFO classical_baseline_814372.repartition: step 42 repartition trigger reason=congestion (congestion) links=3-4 affected_qubits=[2, 13]
+2026-09-23 16:26:53,515 INFO classical_baseline_814372.repartition: step 42 evaluated 1 selective candidates; objective 8591.10 -> 8591.10 (communication 8591.10 -> 8591.10, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:26:53,515 INFO classical_baseline_814372.repartition: step 42 repartition rejected: no_improving_selective_move

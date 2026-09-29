@@ -1,0 +1,290 @@
+{
+  "summary": {
+    "model": "random_connected",
+    "num_qpus": 8,
+    "num_physical_links": 12,
+    "connected": true,
+    "diameter_hops": 3,
+    "min_degree": 2,
+    "max_degree": 4,
+    "physical_links": [
+      "0-2",
+      "0-3",
+      "0-5",
+      "1-2",
+      "1-4",
+      "1-6",
+      "2-7",
+      "3-5",
+      "4-5",
+      "4-6",
+      "5-7",
+      "6-7"
+    ],
+    "total_link_capacity": 102
+  },
+  "qpus": [
+    {
+      "qpu": 0,
+      "capacity": 4
+    },
+    {
+      "qpu": 1,
+      "capacity": 4
+    },
+    {
+      "qpu": 2,
+      "capacity": 4
+    },
+    {
+      "qpu": 3,
+      "capacity": 4
+    },
+    {
+      "qpu": 4,
+      "capacity": 4
+    },
+    {
+      "qpu": 5,
+      "capacity": 4
+    },
+    {
+      "qpu": 6,
+      "capacity": 4
+    },
+    {
+      "qpu": 7,
+      "capacity": 4
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "destination": 2,
+      "latency": 20.0,
+      "fidelity": 0.984112,
+      "capacity": 10,
+      "bell_pair_pool": 34,
+      "bell_pair_regeneration": 18.402,
+      "available_bell_pairs": 34.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 20.0,
+        "fidelity": 0.984112,
+        "capacity": 10,
+        "bell_pair_pool": 34,
+        "bell_pair_regeneration": 18.402
+      }
+    },
+    {
+      "source": 0,
+      "destination": 3,
+      "latency": 25.0,
+      "fidelity": 0.932496,
+      "capacity": 9,
+      "bell_pair_pool": 54,
+      "bell_pair_regeneration": 17.694,
+      "available_bell_pairs": 54.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 25.0,
+        "fidelity": 0.932496,
+        "capacity": 9,
+        "bell_pair_pool": 54,
+        "bell_pair_regeneration": 17.694
+      }
+    },
+    {
+      "source": 0,
+      "destination": 5,
+      "latency": 18.0,
+      "fidelity": 0.981079,
+      "capacity": 8,
+      "bell_pair_pool": 38,
+      "bell_pair_regeneration": 13.412,
+      "available_bell_pairs": 38.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 18.0,
+        "fidelity": 0.981079,
+        "capacity": 8,
+        "bell_pair_pool": 38,
+        "bell_pair_regeneration": 13.412
+      }
+    },
+    {
+      "source": 1,
+      "destination": 2,
+      "latency": 20.0,
+      "fidelity": 0.9842,
+      "capacity": 10,
+      "bell_pair_pool": 29,
+      "bell_pair_regeneration": 8.521,
+      "available_bell_pairs": 29.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 20.0,
+        "fidelity": 0.9842,
+        "capacity": 10,
+        "bell_pair_pool": 29,
+        "bell_pair_regeneration": 8.521
+      }
+    },
+    {
+      "source": 1,
+      "destination": 4,
+      "latency": 21.0,
+      "fidelity": 0.93099,
+      "capacity": 7,
+      "bell_pair_pool": 63,
+      "bell_pair_regeneration": 19.524,
+      "available_bell_pairs": 63.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 21.0,
+        "fidelity": 0.93099,
+        "capacity": 7,
+        "bell_pair_pool": 63,
+        "bell_pair_regeneration": 19.524
+      }
+    },
+    {
+      "source": 1,
+      "destination": 6,
+      "latency": 16.0,
+      "fidelity": 0.924468,
+      "capacity": 6,
+      "bell_pair_pool": 30,
+      "bell_pair_regeneration": 19.694,
+      "available_bell_pairs": 30.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 16.0,
+        "fidelity": 0.924468,
+        "capacity": 6,
+        "bell_pair_pool": 30,
+        "bell_pair_regeneration": 19.694
+      }
+    },
+    {
+      "source": 2,
+      "destination": 7,
+      "latency": 25.0,
+      "fidelity": 0.940418,
+      "capacity": 11,
+      "bell_pair_pool": 63,
+      "bell_pair_regeneration": 16.179,
+      "available_bell_pairs": 63.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 25.0,
+        "fidelity": 0.940418,
+        "capacity": 11,
+        "bell_pair_pool": 63,
+        "bell_pair_regeneration": 16.179
+      }
+    },
+    {
+      "source": 3,
+      "destination": 5,
+      "latency": 21.0,
+      "fidelity": 0.94295,
+      "capacity": 9,
+      "bell_pair_pool": 32,
+      "bell_pair_regeneration": 19.383,
+      "available_bell_pairs": 32.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 21.0,
+        "fidelity": 0.94295,
+        "capacity": 9,
+        "bell_pair_pool": 32,
+        "bell_pair_regeneration": 19.383
+      }
+    },
+    {
+      "source": 4,
+      "destination": 5,
+      "latency": 22.0,
+      "fidelity": 0.980808,
+      "capacity": 10,
+      "bell_pair_pool": 53,
+      "bell_pair_regeneration": 18.605,
+      "available_bell_pairs": 53.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 22.0,
+        "fidelity": 0.980808,
+        "capacity": 10,
+        "bell_pair_pool": 53,
+        "bell_pair_regeneration": 18.605
+      }
+    },
+    {
+      "source": 4,
+      "destination": 6,
+      "latency": 28.0,
+      "fidelity": 0.956376,
+      "capacity": 6,
+      "bell_pair_pool": 48,
+      "bell_pair_regeneration": 12.814,
+      "available_bell_pairs": 48.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 28.0,
+        "fidelity": 0.956376,
+        "capacity": 6,
+        "bell_pair_pool": 48,
+        "bell_pair_regeneration": 12.814
+      }
+    },
+    {
+      "source": 5,
+      "destination": 7,
+      "latency": 15.0,
+      "fidelity": 0.917544,
+      "capacity": 12,
+      "bell_pair_pool": 29,
+      "bell_pair_regeneration": 13.554,
+      "available_bell_pairs": 29.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 15.0,
+        "fidelity": 0.917544,
+        "capacity": 12,
+        "bell_pair_pool": 29,
+        "bell_pair_regeneration": 13.554
+      }
+    },
+    {
+      "source": 6,
+      "destination": 7,
+      "latency": 5.0,
+      "fidelity": 0.982887,
+      "capacity": 4,
+      "bell_pair_pool": 48,
+      "bell_pair_regeneration": 8.437,
+      "available_bell_pairs": 48.0,
+      "active_load": 0.0,
+      "congestion_threshold": 0.6,
+      "baseline": {
+        "latency": 5.0,
+        "fidelity": 0.982887,
+        "capacity": 4,
+        "bell_pair_pool": 48,
+        "bell_pair_regeneration": 8.437
+      }
+    }
+  ]
+}

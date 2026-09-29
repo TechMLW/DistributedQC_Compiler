@@ -1,0 +1,13 @@
+{
+  "source": "benchmark:layered_random",
+  "num_qubits": 32,
+  "depth": 16,
+  "gate_count": 256,
+  "two_qubit_gate_count": 256,
+  "distinct_interaction_pairs": 207,
+  "operations": {
+    "cx": 256
+  },
+  "execution_windows": 16,
+  "randomized_structure": true
+}

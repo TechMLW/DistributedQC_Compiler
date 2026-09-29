@@ -1,0 +1,16 @@
+{
+  "selection_policy": "qaoa_first",
+  "decision_variables": "x[c,r] = 1 if affected communication c uses candidate route r",
+  "reroute_blocks": 96,
+  "qaoa_attempted": 96,
+  "qaoa_not_attempted_too_large_or_disabled": 0,
+  "qaoa_feasible": 96,
+  "qaoa_infeasible": 0,
+  "qaoa_executed": 96,
+  "qaoa_matched_exact_classical_optimum": 72,
+  "qaoa_compared_with_exact_classical": 96,
+  "mean_energy_gap_to_exact_classical": 0.10033327619342212,
+  "max_energy_gap_to_exact_classical": 1.4378329762174822,
+  "mean_feasible_sample_fraction": 0.310455322265625,
+  "note": "Energies are evaluated on the same QUBO for both solvers; executed_energy in qaoa_results.csv is the energy of the route selection actually admitted."
+}

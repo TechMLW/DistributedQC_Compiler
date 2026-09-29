@@ -1,0 +1,48 @@
+2026-09-23 16:21:42,283 INFO run.814374.128647587468624.repartition: step 5 repartition trigger reason=congestion (congestion) links=0-2|1-2|5-7 affected_qubits=[0, 3, 6, 7, 10, 11, 12, 13, 20, 24, 26, 27, 28, 30]
+2026-09-23 16:21:42,283 INFO run.814374.128647587468624.repartition: step 5 evaluated 83 selective candidates; objective 17549.79 -> 17549.79 (communication 17549.79 -> 17549.79, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:21:42,283 INFO run.814374.128647587468624.repartition: step 5 repartition rejected: no_improving_selective_move
+2026-09-23 16:21:43,605 INFO run.814374.128647587468624.repartition: step 6 repartition trigger reason=congestion (congestion) links=1-2|6-7 affected_qubits=[4, 5, 6, 7, 8, 10, 12, 16, 19, 20, 25, 31]
+2026-09-23 16:21:43,605 INFO run.814374.128647587468624.repartition: step 6 evaluated 122 selective candidates; objective 14184.83 -> 13950.73 (communication 14184.83 -> 13891.77, deferred load 0.0 -> 0.0, migration 58.96)
+2026-09-23 16:21:43,605 INFO run.814374.128647587468624.repartition: step 6 repartition rejected: improvement_below_margin
+2026-09-23 16:21:44,517 INFO run.814374.128647587468624.repartition: step 7 repartition trigger reason=congestion (congestion) links=1-4 affected_qubits=[26, 27]
+2026-09-23 16:21:44,517 INFO run.814374.128647587468624.repartition: step 7 evaluated 1 selective candidates; objective 13094.08 -> 13094.08 (communication 13094.08 -> 13094.08, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:21:44,517 INFO run.814374.128647587468624.repartition: step 7 repartition rejected: no_improving_selective_move
+2026-09-23 16:21:45,938 INFO run.814374.128647587468624.repartition: step 8 repartition trigger reason=congestion (congestion) links=1-4 affected_qubits=[1, 25]
+2026-09-23 16:21:45,938 INFO run.814374.128647587468624.repartition: step 8 evaluated 1 selective candidates; objective 13152.36 -> 13152.36 (communication 13152.36 -> 13152.36, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:21:45,938 INFO run.814374.128647587468624.repartition: step 8 repartition rejected: no_improving_selective_move
+2026-09-23 16:21:52,146 INFO run.814374.128647587468624.repartition: step 15 repartition trigger reason=congestion (congestion) links=4-5 affected_qubits=[0, 6, 11, 12, 14, 15, 16, 25, 26, 30]
+2026-09-23 16:21:52,146 INFO run.814374.128647587468624.repartition: step 15 evaluated 40 selective candidates; objective 20869.70 -> 20869.70 (communication 20869.70 -> 20869.70, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:21:52,146 INFO run.814374.128647587468624.repartition: step 15 repartition rejected: no_improving_selective_move
+2026-09-23 16:21:52,918 INFO run.814374.128647587468624.repartition: step 16 repartition trigger reason=congestion (congestion) links=1-2|4-5 affected_qubits=[1, 16, 18, 21]
+2026-09-23 16:21:52,918 INFO run.814374.128647587468624.repartition: step 16 evaluated 12 selective candidates; objective 17169.82 -> 16936.73 (communication 17169.82 -> 16863.81, deferred load 0.0 -> 0.0, migration 72.92)
+2026-09-23 16:21:52,918 INFO run.814374.128647587468624.repartition: step 16 repartition rejected: improvement_below_margin
+2026-09-23 16:21:56,706 INFO run.814374.128647587468624.repartition: step 20 repartition trigger reason=congestion (congestion) links=6-7 affected_qubits=[6, 9, 13, 24]
+2026-09-23 16:21:56,706 INFO run.814374.128647587468624.repartition: step 20 evaluated 5 selective candidates; objective 16211.43 -> 16211.43 (communication 16211.43 -> 16211.43, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:21:56,706 INFO run.814374.128647587468624.repartition: step 20 repartition rejected: no_improving_selective_move
+2026-09-23 16:21:59,264 INFO run.814374.128647587468624.repartition: step 21 repartition trigger reason=congestion (congestion) links=0-2|1-6|4-5|6-7 affected_qubits=[0, 1, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 18, 19, 22, 23, 24, 26, 27, 28, 30]
+2026-09-23 16:21:59,265 INFO run.814374.128647587468624.repartition: step 21 evaluated 418 selective candidates; objective 19858.59 -> 19149.54 (communication 19858.59 -> 19052.09, deferred load 0.0 -> 0.0, migration 97.45)
+2026-09-23 16:21:59,265 INFO run.814374.128647587468624.repartition: step 21 repartition rejected: improvement_below_margin
+2026-09-23 16:22:00,407 INFO run.814374.128647587468624.repartition: step 22 repartition trigger reason=congestion (congestion) links=1-6|4-5|6-7 affected_qubits=[1, 4, 5, 6, 8, 10, 19, 25, 28, 31]
+2026-09-23 16:22:00,407 INFO run.814374.128647587468624.repartition: step 22 evaluated 80 selective candidates; objective 13957.70 -> 13806.96 (communication 13957.70 -> 13677.80, deferred load 0.0 -> 0.0, migration 129.16)
+2026-09-23 16:22:00,407 INFO run.814374.128647587468624.repartition: step 22 repartition rejected: improvement_below_margin
+2026-09-23 16:22:01,306 INFO run.814374.128647587468624.repartition: step 23 repartition trigger reason=congestion (congestion) links=1-6 affected_qubits=[4, 7]
+2026-09-23 16:22:01,306 INFO run.814374.128647587468624.repartition: step 23 evaluated 1 selective candidates; objective 12227.61 -> 12227.61 (communication 12227.61 -> 12227.61, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:22:01,306 INFO run.814374.128647587468624.repartition: step 23 repartition rejected: no_improving_selective_move
+2026-09-23 16:22:08,302 INFO run.814374.128647587468624.repartition: step 30 repartition trigger reason=congestion (congestion) links=1-2 affected_qubits=[2, 7, 9, 12, 19, 21, 22, 23]
+2026-09-23 16:22:08,302 INFO run.814374.128647587468624.repartition: step 30 evaluated 48 selective candidates; objective 14672.00 -> 14447.44 (communication 14672.00 -> 14310.34, deferred load 0.0 -> 0.0, migration 137.10)
+2026-09-23 16:22:08,302 INFO run.814374.128647587468624.repartition: step 30 repartition rejected: improvement_below_margin
+2026-09-23 16:22:10,944 INFO run.814374.128647587468624.repartition: step 31 repartition trigger reason=congestion (congestion) links=1-2|4-5 affected_qubits=[0, 1, 4, 5, 6, 7, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 25, 26, 27, 28, 30]
+2026-09-23 16:22:10,944 INFO run.814374.128647587468624.repartition: step 31 evaluated 416 selective candidates; objective 21691.21 -> 20731.45 (communication 21291.21 -> 20627.50, deferred load 2.0 -> 0.0, migration 103.95)
+2026-09-23 16:22:10,944 INFO run.814374.128647587468624.repartition: step 31 repartition rejected: improvement_below_margin
+2026-09-23 16:22:12,145 INFO run.814374.128647587468624.repartition: step 32 repartition trigger reason=congestion (congestion) links=1-2|4-5 affected_qubits=[1, 16, 18, 21]
+2026-09-23 16:22:12,145 INFO run.814374.128647587468624.repartition: step 32 evaluated 12 selective candidates; objective 13199.09 -> 13165.41 (communication 13199.09 -> 13102.29, deferred load 0.0 -> 0.0, migration 63.12)
+2026-09-23 16:22:12,145 INFO run.814374.128647587468624.repartition: step 32 repartition rejected: improvement_below_margin
+2026-09-23 16:22:18,474 INFO run.814374.128647587468624.repartition: step 38 repartition trigger reason=congestion (congestion) links=1-4|4-5 affected_qubits=[4, 5, 14, 16, 20, 22]
+2026-09-23 16:22:18,474 INFO run.814374.128647587468624.repartition: step 38 evaluated 28 selective candidates; objective 15271.51 -> 15035.95 (communication 15271.51 -> 14964.74, deferred load 0.0 -> 0.0, migration 71.20)
+2026-09-23 16:22:18,474 INFO run.814374.128647587468624.repartition: step 38 repartition rejected: improvement_below_margin
+2026-09-23 16:22:19,027 INFO run.814374.128647587468624.repartition: step 39 repartition trigger reason=congestion (congestion) links=6-7 affected_qubits=[1, 29]
+2026-09-23 16:22:19,027 INFO run.814374.128647587468624.repartition: step 39 evaluated 1 selective candidates; objective 11496.96 -> 11496.96 (communication 11496.96 -> 11496.96, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:22:19,027 INFO run.814374.128647587468624.repartition: step 39 repartition rejected: no_improving_selective_move
+2026-09-23 16:22:26,234 INFO run.814374.128647587468624.repartition: step 47 repartition trigger reason=congestion (congestion) links=6-7 affected_qubits=[6, 15, 24, 27, 28, 29]
+2026-09-23 16:22:26,234 INFO run.814374.128647587468624.repartition: step 47 evaluated 11 selective candidates; objective 15949.96 -> 15949.96 (communication 15949.96 -> 15949.96, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:22:26,234 INFO run.814374.128647587468624.repartition: step 47 repartition rejected: no_improving_selective_move

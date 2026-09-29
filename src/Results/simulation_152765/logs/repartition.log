@@ -1,0 +1,139 @@
+2026-09-23 16:27:46,015 INFO simulation_152765.repartition: step 2 repartition trigger reason=congestion (congestion) links=1-4 affected_qubits=[5, 14]
+2026-09-23 16:27:46,015 INFO simulation_152765.repartition: step 2 evaluated 1 selective candidates; objective 12462.31 -> 12462.31 (communication 10862.31 -> 10862.31, deferred load 8.0 -> 8.0, migration 0.00)
+2026-09-23 16:27:46,015 INFO simulation_152765.repartition: step 2 repartition rejected: no_improving_selective_move
+2026-09-23 16:27:47,143 INFO simulation_152765.repartition: step 3 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[4, 5, 8, 9, 12, 15, 16, 20]
+2026-09-23 16:27:47,143 INFO simulation_152765.repartition: step 3 evaluated 40 selective candidates; objective 16082.04 -> 15650.86 (communication 9682.04 -> 9340.80, deferred load 32.0 -> 31.0, migration 110.06)
+2026-09-23 16:27:47,143 INFO simulation_152765.repartition: step 3 repartition rejected: improvement_below_margin
+2026-09-23 16:27:47,672 INFO simulation_152765.repartition: step 4 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[5, 7, 8, 9, 14, 15, 16]
+2026-09-23 16:27:47,672 INFO simulation_152765.repartition: step 4 evaluated 17 selective candidates; objective 14774.54 -> 14774.54 (communication 12974.54 -> 12974.54, deferred load 9.0 -> 9.0, migration 0.00)
+2026-09-23 16:27:47,672 INFO simulation_152765.repartition: step 4 repartition rejected: no_improving_selective_move
+2026-09-23 16:27:48,573 INFO simulation_152765.repartition: step 5 repartition trigger reason=combined (congestion+resource) links=1-4|1-5 affected_qubits=[0, 2, 4, 5, 7, 9, 12, 13, 14, 15, 16, 17, 18]
+2026-09-23 16:27:48,573 INFO simulation_152765.repartition: step 5 evaluated 130 selective candidates; objective 18292.23 -> 17774.58 (communication 15292.23 -> 14631.74, deferred load 15.0 -> 15.0, migration 142.84)
+2026-09-23 16:27:48,573 INFO simulation_152765.repartition: step 5 repartition rejected: improvement_below_margin
+2026-09-23 16:27:48,987 INFO simulation_152765.repartition: step 6 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[7, 10, 12, 15, 19]
+2026-09-23 16:27:48,987 INFO simulation_152765.repartition: step 6 evaluated 8 selective candidates; objective 9554.22 -> 9554.22 (communication 9554.22 -> 9554.22, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:27:48,987 INFO simulation_152765.repartition: step 6 repartition rejected: no_improving_selective_move
+2026-09-23 16:27:49,661 INFO simulation_152765.repartition: step 9 repartition trigger reason=congestion (congestion) links=1-4 affected_qubits=[3, 9, 12, 15, 17, 23]
+2026-09-23 16:27:49,661 INFO simulation_152765.repartition: step 9 evaluated 11 selective candidates; objective 10762.68 -> 10762.68 (communication 10762.68 -> 10762.68, deferred load 0.0 -> 0.0, migration 0.00)
+2026-09-23 16:27:49,661 INFO simulation_152765.repartition: step 9 repartition rejected: no_improving_selective_move
+2026-09-23 16:27:50,116 INFO simulation_152765.repartition: step 10 repartition trigger reason=congestion (congestion) links=1-4|1-5 affected_qubits=[1, 4, 12, 13, 14, 15, 16, 17, 18, 21]
+2026-09-23 16:27:50,116 INFO simulation_152765.repartition: step 10 evaluated 36 selective candidates; objective 15079.99 -> 15079.99 (communication 13679.99 -> 13679.99, deferred load 7.0 -> 7.0, migration 0.00)
+2026-09-23 16:27:50,116 INFO simulation_152765.repartition: step 10 repartition rejected: no_improving_selective_move
+2026-09-23 16:27:50,398 INFO simulation_152765.repartition: step 11 repartition trigger reason=congestion (congestion) links=1-4|1-5 affected_qubits=[0, 4, 5, 13, 15, 16, 17, 19]
+2026-09-23 16:27:50,398 INFO simulation_152765.repartition: step 11 evaluated 42 selective candidates; objective 14823.43 -> 14472.07 (communication 13423.43 -> 12941.80, deferred load 7.0 -> 7.0, migration 130.27)
+2026-09-23 16:27:50,398 INFO simulation_152765.repartition: step 11 repartition rejected: improvement_below_margin
+2026-09-23 16:27:50,910 INFO simulation_152765.repartition: step 12 repartition trigger reason=congestion (congestion) links=1-4|1-5 affected_qubits=[0, 4, 9, 11, 13, 14, 15, 16, 17, 18]
+2026-09-23 16:27:50,910 INFO simulation_152765.repartition: step 12 evaluated 74 selective candidates; objective 13720.03 -> 13175.44 (communication 12320.03 -> 11645.02, deferred load 7.0 -> 7.0, migration 130.42)
+2026-09-23 16:27:50,910 INFO simulation_152765.repartition: step 12 repartition rejected: improvement_below_margin
+2026-09-23 16:27:51,816 INFO simulation_152765.repartition: step 13 repartition trigger reason=congestion (congestion) links=1-4 affected_qubits=[1, 2, 5, 7, 12, 15]
+2026-09-23 16:27:51,816 INFO simulation_152765.repartition: step 13 evaluated 24 selective candidates; objective 14512.54 -> 14325.39 (communication 12912.54 -> 12698.44, deferred load 8.0 -> 8.0, migration 26.96)
+2026-09-23 16:27:51,816 INFO simulation_152765.repartition: step 13 repartition rejected: improvement_below_margin
+2026-09-23 16:27:52,703 INFO simulation_152765.repartition: step 14 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[0, 4, 5, 9, 12, 14, 15, 20, 22]
+2026-09-23 16:27:52,703 INFO simulation_152765.repartition: step 14 evaluated 56 selective candidates; objective 15554.74 -> 15241.92 (communication 9154.74 -> 8703.65, deferred load 32.0 -> 32.0, migration 138.27)
+2026-09-23 16:27:52,703 INFO simulation_152765.repartition: step 14 repartition rejected: improvement_below_margin
+2026-09-23 16:27:52,970 INFO simulation_152765.repartition: step 15 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[3, 5, 6, 9, 11, 12, 14, 15, 16, 20]
+2026-09-23 16:27:52,970 INFO simulation_152765.repartition: step 15 evaluated 76 selective candidates; objective 14373.79 -> 14126.91 (communication 11973.79 -> 11680.59, deferred load 12.0 -> 12.0, migration 46.32)
+2026-09-23 16:27:52,970 INFO simulation_152765.repartition: step 15 repartition rejected: improvement_below_margin
+2026-09-23 16:27:53,930 INFO simulation_152765.repartition: step 16 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[1, 3, 5, 6, 9, 11, 12, 14, 15, 16, 20, 22]
+2026-09-23 16:27:53,930 INFO simulation_152765.repartition: step 16 evaluated 112 selective candidates; objective 14572.82 -> 14487.02 (communication 11972.82 -> 11835.54, deferred load 13.0 -> 13.0, migration 51.48)
+2026-09-23 16:27:53,930 INFO simulation_152765.repartition: step 16 repartition rejected: improvement_below_margin
+2026-09-23 16:27:54,245 INFO simulation_152765.repartition: step 17 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[1, 5, 8, 9, 11, 12, 15, 16, 18, 19, 20, 22, 23]
+2026-09-23 16:27:54,245 INFO simulation_152765.repartition: step 17 evaluated 132 selective candidates; objective 18868.22 -> 18343.91 (communication 14668.22 -> 13781.55, deferred load 21.0 -> 22.0, migration 162.36)
+2026-09-23 16:27:54,245 INFO simulation_152765.repartition: step 17 repartition rejected: improvement_below_margin
+2026-09-23 16:27:54,570 INFO simulation_152765.repartition: step 18 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[5, 8, 9, 12, 14, 15, 16, 18, 19, 20, 22, 23]
+2026-09-23 16:27:54,571 INFO simulation_152765.repartition: step 18 evaluated 112 selective candidates; objective 14742.27 -> 14225.47 (communication 11942.27 -> 11825.27, deferred load 14.0 -> 11.0, migration 200.19)
+2026-09-23 16:27:54,571 INFO simulation_152765.repartition: step 18 repartition rejected: improvement_below_margin
+2026-09-23 16:27:55,699 INFO simulation_152765.repartition: step 19 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[4, 5, 8, 9, 12, 14, 15, 16, 18, 19, 20, 22, 23]
+2026-09-23 16:27:55,699 INFO simulation_152765.repartition: step 19 evaluated 134 selective candidates; objective 14940.52 -> 14308.96 (communication 12140.52 -> 11755.70, deferred load 14.0 -> 12.0, migration 153.26)
+2026-09-23 16:27:55,699 INFO simulation_152765.repartition: step 19 repartition rejected: improvement_below_margin
+2026-09-23 16:27:56,693 INFO simulation_152765.repartition: step 20 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[4, 5, 7, 8, 9, 12, 14, 15, 16, 18, 19, 20]
+2026-09-23 16:27:56,693 INFO simulation_152765.repartition: step 20 evaluated 110 selective candidates; objective 16965.47 -> 16221.68 (communication 9565.47 -> 9269.93, deferred load 37.0 -> 34.0, migration 151.75)
+2026-09-23 16:27:56,693 INFO simulation_152765.repartition: step 20 repartition rejected: improvement_below_margin
+2026-09-23 16:27:57,391 INFO simulation_152765.repartition: step 21 repartition trigger reason=combined (congestion+resource) links=1-2|1-4|1-5 affected_qubits=[0, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 20]
+2026-09-23 16:27:57,391 INFO simulation_152765.repartition: step 21 evaluated 234 selective candidates; objective 14962.17 -> 14140.55 (communication 13762.17 -> 13336.74, deferred load 6.0 -> 3.0, migration 203.81)
+2026-09-23 16:27:57,392 INFO simulation_152765.repartition: step 21 accepted swap of qubits [0, 17]: QPU [0, 5] -> QPU [5, 0]
+2026-09-23 16:27:57,392 INFO simulation_152765.repartition: step 21 accepted swap of qubits [7, 15]: QPU [1, 4] -> QPU [4, 1]
+2026-09-23 16:27:57,392 INFO simulation_152765.repartition: step 21 link 1-2 projected peak utilization 0.78 -> 0.67
+2026-09-23 16:27:57,392 INFO simulation_152765.repartition: step 21 link 1-4 projected peak utilization 1.00 -> 1.00
+2026-09-23 16:27:57,392 INFO simulation_152765.repartition: step 21 link 1-5 projected peak utilization 0.75 -> 0.75
+2026-09-23 16:27:57,392 INFO simulation_152765.repartition: step 21 moved qubits [0, 7, 15, 17]; new partition {0: [2, 6, 17, 22], 1: [3, 10, 15, 23], 2: [11, 18, 19, 21], 3: [1, 8, 14, 20], 4: [5, 7, 9, 12], 5: [0, 4, 13, 16]}
+2026-09-23 16:27:58,156 INFO simulation_152765.repartition: step 22 trigger 'congestion+resource' suppressed by cooldown (last repartition at step 21)
+2026-09-23 16:27:58,552 INFO simulation_152765.repartition: step 23 trigger 'congestion+resource' suppressed by cooldown (last repartition at step 21)
+2026-09-23 16:27:58,886 INFO simulation_152765.repartition: step 24 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[4, 5, 7, 9, 10, 11, 12, 13, 17, 19, 22]
+2026-09-23 16:27:58,886 INFO simulation_152765.repartition: step 24 evaluated 92 selective candidates; objective 16153.16 -> 15953.93 (communication 9353.16 -> 9231.62, deferred load 34.0 -> 33.0, migration 122.31)
+2026-09-23 16:27:58,886 INFO simulation_152765.repartition: step 24 repartition rejected: improvement_below_margin
+2026-09-23 16:27:59,390 INFO simulation_152765.repartition: step 25 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[3, 5, 7, 9, 10, 12, 13, 14, 15, 19, 22, 23]
+2026-09-23 16:27:59,391 INFO simulation_152765.repartition: step 25 evaluated 108 selective candidates; objective 12711.35 -> 12096.14 (communication 11711.35 -> 11609.26, deferred load 5.0 -> 2.0, migration 86.88)
+2026-09-23 16:27:59,391 INFO simulation_152765.repartition: step 25 repartition rejected: improvement_below_margin
+2026-09-23 16:27:59,933 INFO simulation_152765.repartition: step 26 repartition trigger reason=combined (congestion+resource) links=1-4|1-5 affected_qubits=[0, 1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 22, 23]
+2026-09-23 16:27:59,933 INFO simulation_152765.repartition: step 26 evaluated 262 selective candidates; objective 18208.03 -> 17348.96 (communication 16008.03 -> 15669.89, deferred load 11.0 -> 8.0, migration 79.07)
+2026-09-23 16:27:59,933 INFO simulation_152765.repartition: step 26 repartition rejected: improvement_below_margin
+2026-09-23 16:28:00,178 INFO simulation_152765.repartition: step 27 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[4, 5, 7, 10, 11, 12, 14, 15, 18, 23]
+2026-09-23 16:28:00,178 INFO simulation_152765.repartition: step 27 evaluated 76 selective candidates; objective 11323.73 -> 10908.73 (communication 10923.73 -> 10773.03, deferred load 2.0 -> 0.0, migration 135.69)
+2026-09-23 16:28:00,178 INFO simulation_152765.repartition: step 27 repartition rejected: improvement_below_margin
+2026-09-23 16:28:00,996 INFO simulation_152765.repartition: step 28 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[4, 5, 7, 9, 10, 11, 12, 17, 18]
+2026-09-23 16:28:00,996 INFO simulation_152765.repartition: step 28 evaluated 29 selective candidates; objective 16252.30 -> 16252.30 (communication 13052.30 -> 13052.30, deferred load 16.0 -> 16.0, migration 0.00)
+2026-09-23 16:28:00,996 INFO simulation_152765.repartition: step 28 repartition rejected: no_improving_selective_move
+2026-09-23 16:28:01,071 INFO simulation_152765.repartition: step 29 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[2, 5, 7, 9, 10, 17, 22]
+2026-09-23 16:28:01,072 INFO simulation_152765.repartition: step 29 evaluated 15 selective candidates; objective 15227.44 -> 15227.44 (communication 11827.44 -> 11827.44, deferred load 17.0 -> 17.0, migration 0.00)
+2026-09-23 16:28:01,072 INFO simulation_152765.repartition: step 29 repartition rejected: no_improving_selective_move
+2026-09-23 16:28:02,100 INFO simulation_152765.repartition: step 30 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[2, 4, 5, 7, 9, 12, 14, 17, 20, 21, 22]
+2026-09-23 16:28:02,100 INFO simulation_152765.repartition: step 30 evaluated 90 selective candidates; objective 17439.13 -> 17211.61 (communication 13639.13 -> 13346.52, deferred load 19.0 -> 19.0, migration 65.09)
+2026-09-23 16:28:02,100 INFO simulation_152765.repartition: step 30 repartition rejected: improvement_below_margin
+2026-09-23 16:28:02,500 INFO simulation_152765.repartition: step 31 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[3, 4, 5, 6, 7, 9, 12, 14, 16, 20, 21, 22]
+2026-09-23 16:28:02,501 INFO simulation_152765.repartition: step 31 evaluated 114 selective candidates; objective 15183.47 -> 14897.27 (communication 7783.47 -> 7685.69, deferred load 37.0 -> 35.0, migration 211.59)
+2026-09-23 16:28:02,501 INFO simulation_152765.repartition: step 31 repartition rejected: improvement_below_margin
+2026-09-23 16:28:02,712 INFO simulation_152765.repartition: step 32 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[1, 2, 3, 5, 6, 7, 9, 12, 14, 16, 20, 21]
+2026-09-23 16:28:02,712 INFO simulation_152765.repartition: step 32 evaluated 112 selective candidates; objective 15190.49 -> 14777.93 (communication 10390.49 -> 10169.51, deferred load 24.0 -> 22.0, migration 208.42)
+2026-09-23 16:28:02,712 INFO simulation_152765.repartition: step 32 repartition rejected: improvement_below_margin
+2026-09-23 16:28:03,071 INFO simulation_152765.repartition: step 33 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[1, 2, 3, 5, 6, 7, 8, 9, 11, 12, 14, 16, 18, 20, 21, 23]
+2026-09-23 16:28:03,071 INFO simulation_152765.repartition: step 33 evaluated 206 selective candidates; objective 18585.41 -> 17244.17 (communication 13385.41 -> 12556.31, deferred load 26.0 -> 22.0, migration 287.86)
+2026-09-23 16:28:03,071 INFO simulation_152765.repartition: step 33 accepted swap of qubits [7, 18]: QPU [4, 2] -> QPU [2, 4]
+2026-09-23 16:28:03,071 INFO simulation_152765.repartition: step 33 accepted swap of qubits [1, 5]: QPU [3, 4] -> QPU [4, 3]
+2026-09-23 16:28:03,071 INFO simulation_152765.repartition: step 33 link 1-4 projected peak utilization 1.00 -> 1.00
+2026-09-23 16:28:03,071 INFO simulation_152765.repartition: step 33 moved qubits [1, 5, 7, 18]; new partition {0: [2, 6, 17, 22], 1: [3, 10, 15, 23], 2: [7, 11, 19, 21], 3: [5, 8, 14, 20], 4: [1, 9, 12, 18], 5: [0, 4, 13, 16]}
+2026-09-23 16:28:03,311 INFO simulation_152765.repartition: step 34 trigger 'congestion+resource' suppressed by cooldown (last repartition at step 33)
+2026-09-23 16:28:03,542 INFO simulation_152765.repartition: step 35 trigger 'congestion+resource' suppressed by cooldown (last repartition at step 33)
+2026-09-23 16:28:04,208 INFO simulation_152765.repartition: step 36 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[1, 3, 4, 6, 7, 8, 9, 12, 14, 15, 18, 19, 20]
+2026-09-23 16:28:04,208 INFO simulation_152765.repartition: step 36 evaluated 134 selective candidates; objective 16380.80 -> 14862.59 (communication 11380.80 -> 10441.58, deferred load 25.0 -> 21.0, migration 221.01)
+2026-09-23 16:28:04,208 INFO simulation_152765.repartition: step 36 accepted swap of qubits [9, 20]: QPU [4, 3] -> QPU [3, 4]
+2026-09-23 16:28:04,208 INFO simulation_152765.repartition: step 36 accepted swap of qubits [3, 12]: QPU [1, 4] -> QPU [4, 1]
+2026-09-23 16:28:04,208 INFO simulation_152765.repartition: step 36 link 1-4 projected peak utilization 1.00 -> 1.00
+2026-09-23 16:28:04,208 INFO simulation_152765.repartition: step 36 moved qubits [3, 9, 12, 20]; new partition {0: [2, 6, 17, 22], 1: [10, 12, 15, 23], 2: [7, 11, 19, 21], 3: [5, 8, 9, 14], 4: [1, 3, 18, 20], 5: [0, 4, 13, 16]}
+2026-09-23 16:28:04,454 INFO simulation_152765.repartition: step 37 trigger 'congestion+resource' suppressed by cooldown (last repartition at step 36)
+2026-09-23 16:28:04,632 INFO simulation_152765.repartition: step 38 trigger 'congestion+resource' suppressed by cooldown (last repartition at step 36)
+2026-09-23 16:28:04,847 INFO simulation_152765.repartition: step 39 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[0, 1, 3, 6, 11, 14, 16, 18, 19, 20, 21, 22, 23]
+2026-09-23 16:28:04,848 INFO simulation_152765.repartition: step 39 evaluated 134 selective candidates; objective 15796.12 -> 14700.45 (communication 10796.12 -> 11041.96, deferred load 25.0 -> 17.0, migration 258.49)
+2026-09-23 16:28:04,848 INFO simulation_152765.repartition: step 39 accepted swap of qubits [18, 19]: QPU [4, 2] -> QPU [2, 4]
+2026-09-23 16:28:04,848 INFO simulation_152765.repartition: step 39 accepted swap of qubits [1, 21]: QPU [4, 2] -> QPU [2, 4]
+2026-09-23 16:28:04,848 INFO simulation_152765.repartition: step 39 link 1-4 projected peak utilization 1.00 -> 1.00
+2026-09-23 16:28:04,848 INFO simulation_152765.repartition: step 39 moved qubits [1, 18, 19, 21]; new partition {0: [2, 6, 17, 22], 1: [10, 12, 15, 23], 2: [1, 7, 11, 18], 3: [5, 8, 9, 14], 4: [3, 19, 20, 21], 5: [0, 4, 13, 16]}
+2026-09-23 16:28:05,723 INFO simulation_152765.repartition: step 40 trigger 'congestion+resource' suppressed by cooldown (last repartition at step 39)
+2026-09-23 16:28:05,959 INFO simulation_152765.repartition: step 41 trigger 'congestion+resource' suppressed by cooldown (last repartition at step 39)
+2026-09-23 16:28:06,344 INFO simulation_152765.repartition: step 42 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[3, 9, 10, 17, 21]
+2026-09-23 16:28:06,344 INFO simulation_152765.repartition: step 42 evaluated 9 selective candidates; objective 14691.19 -> 14691.19 (communication 12891.19 -> 12891.19, deferred load 9.0 -> 9.0, migration 0.00)
+2026-09-23 16:28:06,344 INFO simulation_152765.repartition: step 42 repartition rejected: no_improving_selective_move
+2026-09-23 16:28:07,280 INFO simulation_152765.repartition: step 43 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[3, 6, 11, 17, 18, 19, 20, 21]
+2026-09-23 16:28:07,280 INFO simulation_152765.repartition: step 43 evaluated 20 selective candidates; objective 17177.99 -> 17177.99 (communication 10377.99 -> 10377.99, deferred load 34.0 -> 34.0, migration 0.00)
+2026-09-23 16:28:07,280 INFO simulation_152765.repartition: step 43 repartition rejected: no_improving_selective_move
+2026-09-23 16:28:08,123 INFO simulation_152765.repartition: step 44 repartition trigger reason=combined (congestion+resource) links=1-3|1-4 affected_qubits=[1, 4, 5, 12, 14, 17, 18, 19, 20, 21, 23]
+2026-09-23 16:28:08,124 INFO simulation_152765.repartition: step 44 evaluated 98 selective candidates; objective 12640.09 -> 12267.88 (communication 10640.09 -> 10530.09, deferred load 10.0 -> 8.0, migration 137.79)
+2026-09-23 16:28:08,124 INFO simulation_152765.repartition: step 44 repartition rejected: improvement_below_margin
+2026-09-23 16:28:08,391 INFO simulation_152765.repartition: step 45 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[0, 1, 3, 18, 20, 21, 23]
+2026-09-23 16:28:08,391 INFO simulation_152765.repartition: step 45 evaluated 34 selective candidates; objective 9820.84 -> 9600.02 (communication 9420.84 -> 9294.63, deferred load 2.0 -> 1.0, migration 105.38)
+2026-09-23 16:28:08,391 INFO simulation_152765.repartition: step 45 repartition rejected: improvement_below_margin
+2026-09-23 16:28:08,913 INFO simulation_152765.repartition: step 46 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[0, 3, 5, 7, 10, 18, 19, 20, 21, 23]
+2026-09-23 16:28:08,913 INFO simulation_152765.repartition: step 46 evaluated 74 selective candidates; objective 20703.80 -> 20414.46 (communication 14103.80 -> 13720.54, deferred load 33.0 -> 33.0, migration 93.92)
+2026-09-23 16:28:08,913 INFO simulation_152765.repartition: step 46 repartition rejected: improvement_below_margin
+2026-09-23 16:28:09,101 INFO simulation_152765.repartition: step 47 repartition trigger reason=combined (congestion+resource) links=1-4|1-5 affected_qubits=[0, 3, 7, 9, 10, 12, 16, 18, 19, 20, 21]
+2026-09-23 16:28:09,101 INFO simulation_152765.repartition: step 47 evaluated 92 selective candidates; objective 9736.62 -> 9371.67 (communication 9136.62 -> 9020.70, deferred load 3.0 -> 1.0, migration 150.96)
+2026-09-23 16:28:09,101 INFO simulation_152765.repartition: step 47 repartition rejected: improvement_below_margin
+2026-09-23 16:28:09,492 INFO simulation_152765.repartition: step 48 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[0, 3, 4, 6, 7, 9, 18, 19, 20, 21, 23]
+2026-09-23 16:28:09,492 INFO simulation_152765.repartition: step 48 evaluated 94 selective candidates; objective 15605.28 -> 15385.35 (communication 5205.28 -> 5226.81, deferred load 52.0 -> 50.0, migration 158.54)
+2026-09-23 16:28:09,492 INFO simulation_152765.repartition: step 48 repartition rejected: improvement_below_margin
+2026-09-23 16:28:09,594 INFO simulation_152765.repartition: step 49 repartition trigger reason=resource (resource) links= affected_qubits=[3, 4, 6, 9, 10, 14, 15, 19, 20, 21, 22, 23]
+2026-09-23 16:28:09,594 INFO simulation_152765.repartition: step 49 evaluated 110 selective candidates; objective 13230.70 -> 12666.14 (communication 12030.70 -> 11959.70, deferred load 6.0 -> 3.0, migration 106.44)
+2026-09-23 16:28:09,594 INFO simulation_152765.repartition: step 49 repartition rejected: improvement_below_margin
+2026-09-23 16:28:09,965 INFO simulation_152765.repartition: step 50 repartition trigger reason=combined (congestion+resource) links=1-4 affected_qubits=[3, 4, 6, 9, 10, 14, 15, 16, 19, 20, 21, 22, 23]
+2026-09-23 16:28:09,966 INFO simulation_152765.repartition: step 50 evaluated 132 selective candidates; objective 15337.87 -> 14682.86 (communication 7737.87 -> 7410.85, deferred load 38.0 -> 36.0, migration 72.02)
+2026-09-23 16:28:09,966 INFO simulation_152765.repartition: step 50 repartition rejected: improvement_below_margin

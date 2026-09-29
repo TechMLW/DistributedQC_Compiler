@@ -1,0 +1,110 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "qaoa_hybrid: physical topology connected",
+      "passed": true,
+      "detail": "8 links over 6 QPUs"
+    },
+    {
+      "check": "qaoa_hybrid: admitted routes use only existing physical links",
+      "passed": true,
+      "detail": "68 distinct admitted paths checked"
+    },
+    {
+      "check": "qaoa_hybrid: remote communications use valid multi-QPU paths and locals use none",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "qaoa_hybrid: every partition respects capacity and assigns each qubit once",
+      "passed": true,
+      "detail": "1 partitions checked"
+    },
+    {
+      "check": "qaoa_hybrid: no admitted load exceeded link capacity",
+      "passed": true,
+      "detail": "0 violating steps"
+    },
+    {
+      "check": "qaoa_hybrid: link load equals the sum of live reservations (no leaked load)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "qaoa_hybrid: link state history never shows load above capacity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "qaoa_hybrid: selective rerouting never modified unaffected communications",
+      "passed": true,
+      "detail": "191 unaffected communications observed on congestion windows"
+    },
+    {
+      "check": "qaoa_hybrid: selective repartitioning moved only affected qubits",
+      "passed": true,
+      "detail": "0 accepted events checked"
+    },
+    {
+      "check": "qaoa_hybrid: reported QAOA energy equals the energy of the executed selection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "classical_baseline: physical topology connected",
+      "passed": true,
+      "detail": "8 links over 6 QPUs"
+    },
+    {
+      "check": "classical_baseline: admitted routes use only existing physical links",
+      "passed": true,
+      "detail": "61 distinct admitted paths checked"
+    },
+    {
+      "check": "classical_baseline: remote communications use valid multi-QPU paths and locals use none",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "classical_baseline: every partition respects capacity and assigns each qubit once",
+      "passed": true,
+      "detail": "1 partitions checked"
+    },
+    {
+      "check": "classical_baseline: no admitted load exceeded link capacity",
+      "passed": true,
+      "detail": "0 violating steps"
+    },
+    {
+      "check": "classical_baseline: link load equals the sum of live reservations (no leaked load)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "classical_baseline: link state history never shows load above capacity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "classical_baseline: selective rerouting never modified unaffected communications",
+      "passed": true,
+      "detail": "192 unaffected communications observed on congestion windows"
+    },
+    {
+      "check": "classical_baseline: selective repartitioning moved only affected qubits",
+      "passed": true,
+      "detail": "0 accepted events checked"
+    },
+    {
+      "check": "classical_baseline: reported QAOA energy equals the energy of the executed selection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all artifacts written inside the seed directory",
+      "passed": true,
+      "detail": "30 files under /home/pdave9876/QCode/src/Results/simulation_814372"
+    }
+  ]
+}

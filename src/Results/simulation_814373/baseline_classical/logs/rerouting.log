@@ -1,0 +1,359 @@
+2026-09-23 16:21:27,962 INFO run.814373.135599821542736.baseline.rerouting: step 2 selective rerouting: 7 affected communications on congested links 0-4|2-3|2-5; 2 unaffected communications left untouched
+2026-09-23 16:21:27,962 INFO run.814373.135599821542736.baseline.rerouting: step 2 block 0: 5 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.0900; qaoa=not run; executed=classical_exhaustive E=3.0900 (keep-current E=4.6264); routes changed=1
+2026-09-23 16:21:27,962 INFO run.814373.135599821542736.baseline.rerouting: step 2 block 1: 2 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.8670; qaoa=not run; executed=classical_exhaustive E=0.8670 (keep-current E=0.8670); routes changed=0
+2026-09-23 16:21:27,962 INFO run.814373.135599821542736.baseline.rerouting: step 2 rerouted s0002-w001-g005-q5_22 (q5 QPU5 -> q22 QPU3): 5-2-3 -> 5-2-0-3, cost 194.11 -> 176.72
+2026-09-23 16:21:27,962 INFO run.814373.135599821542736.baseline.rerouting: step 2 link 0-4 utilization 0.75 -> 0.75 after selective rerouting
+2026-09-23 16:21:27,962 INFO run.814373.135599821542736.baseline.rerouting: step 2 link 2-3 utilization 0.67 -> 0.50 after selective rerouting
+2026-09-23 16:21:27,962 INFO run.814373.135599821542736.baseline.rerouting: step 2 link 2-5 utilization 0.67 -> 0.67 after selective rerouting
+2026-09-23 16:21:27,966 INFO run.814373.135599821542736.baseline.rerouting: step 3 selective rerouting: 8 affected communications on congested links 1-3|2-3|2-5; 0 unaffected communications left untouched
+2026-09-23 16:21:27,966 INFO run.814373.135599821542736.baseline.rerouting: step 3 block 0: 3 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.7647; qaoa=not run; executed=classical_exhaustive E=1.7647 (keep-current E=5.6188); routes changed=2
+2026-09-23 16:21:27,966 INFO run.814373.135599821542736.baseline.rerouting: step 3 block 1: 4 communications, 11 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.5028; qaoa=not run; executed=classical_exhaustive E=2.5028 (keep-current E=2.6868); routes changed=1
+2026-09-23 16:21:27,966 INFO run.814373.135599821542736.baseline.rerouting: step 3 block 2: 1 communications, 2 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.7728; qaoa=not run; executed=classical_exhaustive E=0.7728 (keep-current E=0.7728); routes changed=0
+2026-09-23 16:21:27,966 INFO run.814373.135599821542736.baseline.rerouting: step 3 rerouted s0003-w002-g002-q2_15 (q2 QPU4 -> q15 QPU2): 4-1-3-2 -> 4-0-2, cost 305.25 -> 166.99
+2026-09-23 16:21:27,966 INFO run.814373.135599821542736.baseline.rerouting: step 3 rerouted s0003-w002-g003-q3_4 (q3 QPU4 -> q4 QPU5): 4-1-3-2-5 -> 4-0-2-5, cost 444.25 -> 311.83
+2026-09-23 16:21:27,966 INFO run.814373.135599821542736.baseline.rerouting: step 3 rerouted s0003-w002-g007-q8_23 (q8 QPU4 -> q23 QPU2): 4-1-3-2 -> 4-0-2, cost 305.25 -> 166.99
+2026-09-23 16:21:27,966 INFO run.814373.135599821542736.baseline.rerouting: step 3 link 1-3 utilization 1.00 -> 0.57 after selective rerouting
+2026-09-23 16:21:27,966 INFO run.814373.135599821542736.baseline.rerouting: step 3 link 2-3 utilization 0.83 -> 0.33 after selective rerouting
+2026-09-23 16:21:27,966 INFO run.814373.135599821542736.baseline.rerouting: step 3 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:28,017 INFO run.814373.135599821542736.baseline.rerouting: step 4 selective rerouting: 1 affected communications on congested links 0-4|2-5; 2 unaffected communications left untouched
+2026-09-23 16:21:28,017 INFO run.814373.135599821542736.baseline.rerouting: step 4 block 0: 1 communications, 2 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.5544; qaoa=not run; executed=classical_exhaustive E=0.5544 (keep-current E=1.0000); routes changed=1
+2026-09-23 16:21:28,017 INFO run.814373.135599821542736.baseline.rerouting: step 4 rerouted s0004-w003-g009-q13_18 (q13 QPU0 -> q18 QPU4): 0-4 -> 0-3-1-4, cost 174.32 -> 96.87
+2026-09-23 16:21:28,017 INFO run.814373.135599821542736.baseline.rerouting: step 4 link 0-4 utilization 1.00 -> 0.75 after selective rerouting
+2026-09-23 16:21:28,017 INFO run.814373.135599821542736.baseline.rerouting: step 4 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:28,098 INFO run.814373.135599821542736.baseline.rerouting: step 5 selective rerouting: 6 affected communications on congested links 1-3|2-5; 2 unaffected communications left untouched
+2026-09-23 16:21:28,098 INFO run.814373.135599821542736.baseline.rerouting: step 5 block 0: 3 communications, 11 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.4966; qaoa=not run; executed=classical_exhaustive E=2.4966 (keep-current E=3.3335); routes changed=1
+2026-09-23 16:21:28,098 INFO run.814373.135599821542736.baseline.rerouting: step 5 block 1: 3 communications, 6 QUBO variables, 2 pairwise capacity conflicts; classical=classical_exhaustive E=1.9181; qaoa=not run; executed=classical_exhaustive E=1.9181 (keep-current E=1.9181); routes changed=0
+2026-09-23 16:21:28,098 INFO run.814373.135599821542736.baseline.rerouting: step 5 rerouted s0005-w004-g003-q3_23 (q3 QPU4 -> q23 QPU2): 4-1-3-2 -> 4-0-2, cost 209.78 -> 173.25
+2026-09-23 16:21:28,098 INFO run.814373.135599821542736.baseline.rerouting: step 5 link 1-3 utilization 1.00 -> 0.83 after selective rerouting
+2026-09-23 16:21:28,098 INFO run.814373.135599821542736.baseline.rerouting: step 5 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:28,307 INFO run.814373.135599821542736.baseline.rerouting: step 6 selective rerouting: 6 affected communications on congested links 0-4|1-3|2-3|2-5; 0 unaffected communications left untouched
+2026-09-23 16:21:28,307 INFO run.814373.135599821542736.baseline.rerouting: step 6 block 0: 3 communications, 9 QUBO variables, 5 pairwise capacity conflicts; classical=classical_exhaustive E=1.9046; qaoa=not run; executed=classical_exhaustive E=1.9046 (keep-current E=2.0964); routes changed=2
+2026-09-23 16:21:28,307 INFO run.814373.135599821542736.baseline.rerouting: step 6 block 1: 3 communications, 5 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.8947; qaoa=not run; executed=classical_exhaustive E=3.8947 (keep-current E=3.9629); routes changed=1
+2026-09-23 16:21:28,307 INFO run.814373.135599821542736.baseline.rerouting: step 6 rerouted s0003-w002-g009-q10_18 (q10 QPU5 -> q18 QPU4): 5-2-3-1-4 -> 5-2-0-4, cost 419.44 -> 352.03
+2026-09-23 16:21:28,307 INFO run.814373.135599821542736.baseline.rerouting: step 6 rerouted s0004-w003-g003-q3_17 (q3 QPU4 -> q17 QPU5): 4-1-3-2-5 -> 4-1-3-0-2-5, cost 419.44 -> 403.12
+2026-09-23 16:21:28,307 INFO run.814373.135599821542736.baseline.rerouting: step 6 rerouted s0006-w005-g002-q2_16 (q2 QPU4 -> q16 QPU3): 4-0-3 -> 4-1-3, cost 212.23 -> 194.21
+2026-09-23 16:21:28,307 INFO run.814373.135599821542736.baseline.rerouting: step 6 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:28,307 INFO run.814373.135599821542736.baseline.rerouting: step 6 link 1-3 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:28,307 INFO run.814373.135599821542736.baseline.rerouting: step 6 link 2-3 utilization 0.67 -> 0.33 after selective rerouting
+2026-09-23 16:21:28,307 INFO run.814373.135599821542736.baseline.rerouting: step 6 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:28,500 INFO run.814373.135599821542736.baseline.rerouting: step 7 selective rerouting: 4 affected communications on congested links 1-3|2-3|2-5; 5 unaffected communications left untouched
+2026-09-23 16:21:28,500 INFO run.814373.135599821542736.baseline.rerouting: step 7 block 0: 3 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.0875; qaoa=not run; executed=classical_exhaustive E=2.0875 (keep-current E=4.7092); routes changed=2
+2026-09-23 16:21:28,500 INFO run.814373.135599821542736.baseline.rerouting: step 7 block 1: 1 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.5640; qaoa=not run; executed=classical_exhaustive E=0.5640 (keep-current E=0.5640); routes changed=0
+2026-09-23 16:21:28,500 INFO run.814373.135599821542736.baseline.rerouting: step 7 rerouted s0004-w003-g004-q5_12 (q5 QPU5 -> q12 QPU1): 5-2-3-1 -> 5-2-0-4-1, cost 415.46 -> 405.42
+2026-09-23 16:21:28,500 INFO run.814373.135599821542736.baseline.rerouting: step 7 rerouted s0007-w006-g006-q6_9 (q6 QPU2 -> q9 QPU1): 2-3-1 -> 2-0-3-1, cost 276.20 -> 207.02
+2026-09-23 16:21:28,500 INFO run.814373.135599821542736.baseline.rerouting: step 7 link 1-3 utilization 1.00 -> 0.83 after selective rerouting
+2026-09-23 16:21:28,500 INFO run.814373.135599821542736.baseline.rerouting: step 7 link 2-3 utilization 0.83 -> 0.50 after selective rerouting
+2026-09-23 16:21:28,500 INFO run.814373.135599821542736.baseline.rerouting: step 7 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:28,798 INFO run.814373.135599821542736.baseline.rerouting: step 8 selective rerouting: 3 affected communications on congested links 0-4|1-3|2-5; 1 unaffected communications left untouched
+2026-09-23 16:21:28,798 INFO run.814373.135599821542736.baseline.rerouting: step 8 block 0: 3 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.6893; qaoa=not run; executed=classical_exhaustive E=1.6893 (keep-current E=1.6893); routes changed=0
+2026-09-23 16:21:28,798 INFO run.814373.135599821542736.baseline.rerouting: step 8 link 0-4 utilization 0.75 -> 0.75 after selective rerouting
+2026-09-23 16:21:28,798 INFO run.814373.135599821542736.baseline.rerouting: step 8 link 1-3 utilization 0.67 -> 0.67 after selective rerouting
+2026-09-23 16:21:28,798 INFO run.814373.135599821542736.baseline.rerouting: step 8 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,071 INFO run.814373.135599821542736.baseline.rerouting: step 9 selective rerouting: 9 affected communications on congested links 1-3|2-3|2-5; 2 unaffected communications left untouched
+2026-09-23 16:21:29,071 INFO run.814373.135599821542736.baseline.rerouting: step 9 block 0: 4 communications, 11 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.2038; qaoa=not run; executed=classical_exhaustive E=2.2038 (keep-current E=2.7392); routes changed=1
+2026-09-23 16:21:29,071 INFO run.814373.135599821542736.baseline.rerouting: step 9 block 1: 4 communications, 10 QUBO variables, 1 pairwise capacity conflicts; classical=classical_exhaustive E=1.7306; qaoa=not run; executed=classical_exhaustive E=1.7306 (keep-current E=3.2972); routes changed=2
+2026-09-23 16:21:29,071 INFO run.814373.135599821542736.baseline.rerouting: step 9 block 2: 1 communications, 2 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.6977; qaoa=not run; executed=classical_exhaustive E=0.6977 (keep-current E=0.6977); routes changed=0
+2026-09-23 16:21:29,071 INFO run.814373.135599821542736.baseline.rerouting: step 9 rerouted s0009-w008-g003-q3_14 (q3 QPU4 -> q14 QPU3): 4-1-3 -> 4-0-3, cost 171.18 -> 206.27
+2026-09-23 16:21:29,071 INFO run.814373.135599821542736.baseline.rerouting: step 9 rerouted s0009-w008-g005-q7_21 (q7 QPU1 -> q21 QPU0): 1-3-0 -> 1-4-0, cost 171.52 -> 205.79
+2026-09-23 16:21:29,071 INFO run.814373.135599821542736.baseline.rerouting: step 9 rerouted s0009-w008-g007-q9_15 (q9 QPU1 -> q15 QPU2): 1-3-2 -> 1-3-0-2, cost 229.10 -> 98.13
+2026-09-23 16:21:29,071 INFO run.814373.135599821542736.baseline.rerouting: step 9 link 1-3 utilization 0.86 -> 0.57 after selective rerouting
+2026-09-23 16:21:29,071 INFO run.814373.135599821542736.baseline.rerouting: step 9 link 2-3 utilization 0.67 -> 0.50 after selective rerouting
+2026-09-23 16:21:29,071 INFO run.814373.135599821542736.baseline.rerouting: step 9 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,073 INFO run.814373.135599821542736.baseline.rerouting: step 10 selective rerouting: 6 affected communications on congested links 0-4|1-3|2-5; 1 unaffected communications left untouched
+2026-09-23 16:21:29,073 INFO run.814373.135599821542736.baseline.rerouting: step 10 block 0: 4 communications, 11 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.3313; qaoa=not run; executed=classical_exhaustive E=2.3313 (keep-current E=2.3313); routes changed=0
+2026-09-23 16:21:29,073 INFO run.814373.135599821542736.baseline.rerouting: step 10 block 1: 2 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.9482; qaoa=not run; executed=classical_exhaustive E=1.9482 (keep-current E=1.9482); routes changed=0
+2026-09-23 16:21:29,073 INFO run.814373.135599821542736.baseline.rerouting: step 10 link 0-4 utilization 0.75 -> 0.75 after selective rerouting
+2026-09-23 16:21:29,073 INFO run.814373.135599821542736.baseline.rerouting: step 10 link 1-3 utilization 0.71 -> 0.71 after selective rerouting
+2026-09-23 16:21:29,073 INFO run.814373.135599821542736.baseline.rerouting: step 10 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,075 INFO run.814373.135599821542736.baseline.rerouting: step 11 selective rerouting: 8 affected communications on congested links 0-2|1-3|2-3|2-5; 0 unaffected communications left untouched
+2026-09-23 16:21:29,075 INFO run.814373.135599821542736.baseline.rerouting: step 11 block 0: 4 communications, 9 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=6.7458; qaoa=not run; executed=classical_exhaustive E=6.7458 (keep-current E=6.7910); routes changed=2
+2026-09-23 16:21:29,075 INFO run.814373.135599821542736.baseline.rerouting: step 11 block 1: 3 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.5241; qaoa=not run; executed=classical_exhaustive E=1.5241 (keep-current E=2.5071); routes changed=1
+2026-09-23 16:21:29,075 INFO run.814373.135599821542736.baseline.rerouting: step 11 block 2: 1 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.1600; qaoa=not run; executed=classical_exhaustive E=0.1600 (keep-current E=0.1600); routes changed=0
+2026-09-23 16:21:29,075 INFO run.814373.135599821542736.baseline.rerouting: step 11 rerouted s0007-w006-g005-q5_7 (q5 QPU5 -> q7 QPU1): 5-2-3-1 -> 5-2-0-4-1, cost 348.55 -> 398.88
+2026-09-23 16:21:29,075 INFO run.814373.135599821542736.baseline.rerouting: step 11 rerouted s0009-w008-g000-q0_5 (q0 QPU0 -> q5 QPU5): 0-2-5 -> 0-3-2-5, cost 259.93 -> 209.66
+2026-09-23 16:21:29,075 INFO run.814373.135599821542736.baseline.rerouting: step 11 rerouted s0011-w010-g006-q7_23 (q7 QPU1 -> q23 QPU2): 1-3-2 -> 1-4-0-2, cost 201.15 -> 252.18
+2026-09-23 16:21:29,075 INFO run.814373.135599821542736.baseline.rerouting: step 11 link 0-2 utilization 0.62 -> 0.75 after selective rerouting
+2026-09-23 16:21:29,075 INFO run.814373.135599821542736.baseline.rerouting: step 11 link 1-3 utilization 0.71 -> 0.43 after selective rerouting
+2026-09-23 16:21:29,075 INFO run.814373.135599821542736.baseline.rerouting: step 11 link 2-3 utilization 0.67 -> 0.50 after selective rerouting
+2026-09-23 16:21:29,075 INFO run.814373.135599821542736.baseline.rerouting: step 11 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,170 INFO run.814373.135599821542736.baseline.rerouting: step 12 selective rerouting: 1 affected communications on congested links 2-5; 5 unaffected communications left untouched
+2026-09-23 16:21:29,170 INFO run.814373.135599821542736.baseline.rerouting: step 12 block 0: 1 communications, 1 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.0000; qaoa=not run; executed=classical_exhaustive E=1.0000 (keep-current E=1.0000); routes changed=0
+2026-09-23 16:21:29,170 INFO run.814373.135599821542736.baseline.rerouting: step 12 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,215 INFO run.814373.135599821542736.baseline.rerouting: step 13 selective rerouting: 8 affected communications on congested links 0-4|1-3|1-4|2-5; 2 unaffected communications left untouched
+2026-09-23 16:21:29,215 INFO run.814373.135599821542736.baseline.rerouting: step 13 block 0: 3 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.5116; qaoa=not run; executed=classical_exhaustive E=1.5116 (keep-current E=2.0656); routes changed=1
+2026-09-23 16:21:29,215 INFO run.814373.135599821542736.baseline.rerouting: step 13 block 1: 4 communications, 11 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.9828; qaoa=not run; executed=classical_exhaustive E=2.9828 (keep-current E=6.3100); routes changed=2
+2026-09-23 16:21:29,215 INFO run.814373.135599821542736.baseline.rerouting: step 13 block 2: 1 communications, 1 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.0000; qaoa=not run; executed=classical_exhaustive E=1.0000 (keep-current E=1.0000); routes changed=0
+2026-09-23 16:21:29,215 INFO run.814373.135599821542736.baseline.rerouting: step 13 rerouted s0013-w012-g003-q3_6 (q3 QPU4 -> q6 QPU3): 4-1-3 -> 4-0-3, cost 232.85 -> 209.65
+2026-09-23 16:21:29,215 INFO run.814373.135599821542736.baseline.rerouting: step 13 rerouted s0013-w012-g006-q8_14 (q8 QPU4 -> q14 QPU3): 4-1-3 -> 4-0-3, cost 232.85 -> 209.65
+2026-09-23 16:21:29,215 INFO run.814373.135599821542736.baseline.rerouting: step 13 rerouted s0013-w012-g007-q9_11 (q9 QPU1 -> q11 QPU0): 1-4-0 -> 1-3-0, cost 269.17 -> 69.36
+2026-09-23 16:21:29,215 INFO run.814373.135599821542736.baseline.rerouting: step 13 link 0-4 utilization 0.80 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,215 INFO run.814373.135599821542736.baseline.rerouting: step 13 link 1-3 utilization 0.62 -> 0.50 after selective rerouting
+2026-09-23 16:21:29,215 INFO run.814373.135599821542736.baseline.rerouting: step 13 link 1-4 utilization 0.88 -> 0.50 after selective rerouting
+2026-09-23 16:21:29,216 INFO run.814373.135599821542736.baseline.rerouting: step 13 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,218 INFO run.814373.135599821542736.baseline.rerouting: step 14 selective rerouting: 8 affected communications on congested links 0-4|1-3|1-4|2-3|2-5; 1 unaffected communications left untouched
+2026-09-23 16:21:29,218 INFO run.814373.135599821542736.baseline.rerouting: step 14 block 0: 3 communications, 11 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.6043; qaoa=not run; executed=classical_exhaustive E=2.6043 (keep-current E=3.9309); routes changed=1
+2026-09-23 16:21:29,218 INFO run.814373.135599821542736.baseline.rerouting: step 14 block 1: 4 communications, 10 QUBO variables, 5 pairwise capacity conflicts; classical=classical_exhaustive E=1.4638; qaoa=not run; executed=classical_exhaustive E=1.4638 (keep-current E=2.3544); routes changed=1
+2026-09-23 16:21:29,218 INFO run.814373.135599821542736.baseline.rerouting: step 14 block 2: 1 communications, 2 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.6380; qaoa=not run; executed=classical_exhaustive E=0.6380 (keep-current E=0.6380); routes changed=0
+2026-09-23 16:21:29,218 INFO run.814373.135599821542736.baseline.rerouting: step 14 rerouted s0013-w012-g004-q4_18 (q4 QPU5 -> q18 QPU4): 5-2-3-1-4 -> 5-2-0-4, cost 550.38 -> 350.17
+2026-09-23 16:21:29,218 INFO run.814373.135599821542736.baseline.rerouting: step 14 rerouted s0014-w013-g002-q2_20 (q2 QPU4 -> q20 QPU2): 4-1-3-2 -> 4-0-2, cost 408.04 -> 206.73
+2026-09-23 16:21:29,218 INFO run.814373.135599821542736.baseline.rerouting: step 14 link 0-4 utilization 0.60 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,218 INFO run.814373.135599821542736.baseline.rerouting: step 14 link 1-3 utilization 1.00 -> 0.71 after selective rerouting
+2026-09-23 16:21:29,218 INFO run.814373.135599821542736.baseline.rerouting: step 14 link 1-4 utilization 0.75 -> 0.50 after selective rerouting
+2026-09-23 16:21:29,218 INFO run.814373.135599821542736.baseline.rerouting: step 14 link 2-3 utilization 1.00 -> 0.67 after selective rerouting
+2026-09-23 16:21:29,218 INFO run.814373.135599821542736.baseline.rerouting: step 14 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,220 INFO run.814373.135599821542736.baseline.rerouting: step 15 selective rerouting: 10 affected communications on congested links 0-4|1-3|1-4|2-3|2-5; 1 unaffected communications left untouched
+2026-09-23 16:21:29,220 INFO run.814373.135599821542736.baseline.rerouting: step 15 block 0: 3 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.6564; qaoa=not run; executed=classical_exhaustive E=1.6564 (keep-current E=2.6617); routes changed=2
+2026-09-23 16:21:29,220 INFO run.814373.135599821542736.baseline.rerouting: step 15 block 1: 3 communications, 11 QUBO variables, 12 pairwise capacity conflicts; classical=classical_exhaustive E=3.0568; qaoa=not run; executed=classical_exhaustive E=3.0568 (keep-current E=9.3098); routes changed=1
+2026-09-23 16:21:29,220 INFO run.814373.135599821542736.baseline.rerouting: step 15 block 2: 4 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.7269; qaoa=not run; executed=classical_exhaustive E=1.7269 (keep-current E=1.7269); routes changed=0
+2026-09-23 16:21:29,220 INFO run.814373.135599821542736.baseline.rerouting: step 15 rerouted s0014-w013-g003-q3_5 (q3 QPU4 -> q5 QPU5): 4-1-3-2-5 -> 4-0-2-5, cost 525.89 -> 350.23
+2026-09-23 16:21:29,220 INFO run.814373.135599821542736.baseline.rerouting: step 15 rerouted s0015-w014-g003-q3_23 (q3 QPU4 -> q23 QPU2): 4-1-3-2 -> 4-0-2, cost 381.61 -> 207.34
+2026-09-23 16:21:29,220 INFO run.814373.135599821542736.baseline.rerouting: step 15 rerouted s0015-w014-g009-q11_12 (q11 QPU0 -> q12 QPU1): 0-4-1 -> 0-3-1, cost 268.52 -> 152.36
+2026-09-23 16:21:29,220 INFO run.814373.135599821542736.baseline.rerouting: step 15 link 0-4 utilization 0.80 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,220 INFO run.814373.135599821542736.baseline.rerouting: step 15 link 1-3 utilization 0.86 -> 0.71 after selective rerouting
+2026-09-23 16:21:29,220 INFO run.814373.135599821542736.baseline.rerouting: step 15 link 1-4 utilization 0.88 -> 0.50 after selective rerouting
+2026-09-23 16:21:29,220 INFO run.814373.135599821542736.baseline.rerouting: step 15 link 2-3 utilization 0.86 -> 0.57 after selective rerouting
+2026-09-23 16:21:29,220 INFO run.814373.135599821542736.baseline.rerouting: step 15 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,499 INFO run.814373.135599821542736.baseline.rerouting: step 16 selective rerouting: 3 affected communications on congested links 0-4|2-5; 3 unaffected communications left untouched
+2026-09-23 16:21:29,499 INFO run.814373.135599821542736.baseline.rerouting: step 16 block 0: 3 communications, 7 QUBO variables, 2 pairwise capacity conflicts; classical=classical_exhaustive E=1.8296; qaoa=not run; executed=classical_exhaustive E=1.8296 (keep-current E=1.8296); routes changed=0
+2026-09-23 16:21:29,499 INFO run.814373.135599821542736.baseline.rerouting: step 16 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,499 INFO run.814373.135599821542736.baseline.rerouting: step 16 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,573 INFO run.814373.135599821542736.baseline.rerouting: step 17 selective rerouting: 2 affected communications on congested links 2-5; 4 unaffected communications left untouched
+2026-09-23 16:21:29,573 INFO run.814373.135599821542736.baseline.rerouting: step 17 block 0: 2 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.2710; qaoa=not run; executed=classical_exhaustive E=2.2710 (keep-current E=2.3336); routes changed=1
+2026-09-23 16:21:29,573 INFO run.814373.135599821542736.baseline.rerouting: step 17 rerouted s0016-w015-g000-q0_11 (q0 QPU5 -> q11 QPU0): 5-2-0 -> 5-2-3-0, cost 194.50 -> 212.02
+2026-09-23 16:21:29,574 INFO run.814373.135599821542736.baseline.rerouting: step 17 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,680 INFO run.814373.135599821542736.baseline.rerouting: step 18 selective rerouting: 6 affected communications on congested links 0-4|2-3|2-5; 3 unaffected communications left untouched
+2026-09-23 16:21:29,680 INFO run.814373.135599821542736.baseline.rerouting: step 18 block 0: 6 communications, 11 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.3710; qaoa=not run; executed=classical_exhaustive E=3.3710 (keep-current E=4.8899); routes changed=2
+2026-09-23 16:21:29,680 INFO run.814373.135599821542736.baseline.rerouting: step 18 rerouted s0016-w015-g003-q4_14 (q4 QPU5 -> q14 QPU3): 5-2-3 -> 5-2-0-3, cost 248.18 -> 229.23
+2026-09-23 16:21:29,680 INFO run.814373.135599821542736.baseline.rerouting: step 18 rerouted s0018-w001-g009-q11_18 (q11 QPU0 -> q18 QPU4): 0-4 -> 0-3-1-4, cost 130.37 -> 90.85
+2026-09-23 16:21:29,680 INFO run.814373.135599821542736.baseline.rerouting: step 18 link 0-4 utilization 0.75 -> 0.50 after selective rerouting
+2026-09-23 16:21:29,680 INFO run.814373.135599821542736.baseline.rerouting: step 18 link 2-3 utilization 0.67 -> 0.50 after selective rerouting
+2026-09-23 16:21:29,680 INFO run.814373.135599821542736.baseline.rerouting: step 18 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,821 INFO run.814373.135599821542736.baseline.rerouting: step 19 selective rerouting: 6 affected communications on congested links 0-4|2-5; 4 unaffected communications left untouched
+2026-09-23 16:21:29,821 INFO run.814373.135599821542736.baseline.rerouting: step 19 block 0: 3 communications, 11 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.9487; qaoa=not run; executed=classical_exhaustive E=1.9487 (keep-current E=2.3077); routes changed=1
+2026-09-23 16:21:29,821 INFO run.814373.135599821542736.baseline.rerouting: step 19 block 1: 3 communications, 8 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=5.7658; qaoa=not run; executed=classical_exhaustive E=5.7658 (keep-current E=5.7658); routes changed=0
+2026-09-23 16:21:29,821 INFO run.814373.135599821542736.baseline.rerouting: step 19 rerouted s0019-w002-g007-q8_23 (q8 QPU4 -> q23 QPU2): 4-0-2 -> 4-1-3-2, cost 159.42 -> 149.09
+2026-09-23 16:21:29,821 INFO run.814373.135599821542736.baseline.rerouting: step 19 link 0-4 utilization 0.75 -> 0.50 after selective rerouting
+2026-09-23 16:21:29,821 INFO run.814373.135599821542736.baseline.rerouting: step 19 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,989 INFO run.814373.135599821542736.baseline.rerouting: step 20 selective rerouting: 9 affected communications on congested links 0-4|1-3|2-3|2-5; 0 unaffected communications left untouched
+2026-09-23 16:21:29,989 INFO run.814373.135599821542736.baseline.rerouting: step 20 block 0: 4 communications, 11 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.7974; qaoa=not run; executed=classical_exhaustive E=2.7974 (keep-current E=2.9221); routes changed=2
+2026-09-23 16:21:29,989 INFO run.814373.135599821542736.baseline.rerouting: step 20 block 1: 5 communications, 9 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.2270; qaoa=not run; executed=classical_exhaustive E=4.2270 (keep-current E=4.2961); routes changed=1
+2026-09-23 16:21:29,989 INFO run.814373.135599821542736.baseline.rerouting: step 20 rerouted s0018-w001-g004-q4_10 (q4 QPU5 -> q10 QPU1): 5-2-3-1 -> 5-2-0-4-1, cost 395.33 -> 373.59
+2026-09-23 16:21:29,989 INFO run.814373.135599821542736.baseline.rerouting: step 20 rerouted s0020-w003-g001-q1_7 (q1 QPU0 -> q7 QPU1): 0-4-1 -> 0-3-1, cost 198.61 -> 172.50
+2026-09-23 16:21:29,989 INFO run.814373.135599821542736.baseline.rerouting: step 20 rerouted s0020-w003-g007-q9_22 (q9 QPU1 -> q22 QPU2): 1-3-2 -> 1-3-0-2, cost 248.12 -> 203.12
+2026-09-23 16:21:29,989 INFO run.814373.135599821542736.baseline.rerouting: step 20 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:29,989 INFO run.814373.135599821542736.baseline.rerouting: step 20 link 1-3 utilization 0.83 -> 0.83 after selective rerouting
+2026-09-23 16:21:29,989 INFO run.814373.135599821542736.baseline.rerouting: step 20 link 2-3 utilization 0.83 -> 0.50 after selective rerouting
+2026-09-23 16:21:29,989 INFO run.814373.135599821542736.baseline.rerouting: step 20 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:30,311 INFO run.814373.135599821542736.baseline.rerouting: step 21 selective rerouting: 8 affected communications on congested links 0-2|0-4|1-3|2-5; 0 unaffected communications left untouched
+2026-09-23 16:21:30,311 INFO run.814373.135599821542736.baseline.rerouting: step 21 block 0: 4 communications, 8 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.5961; qaoa=not run; executed=classical_exhaustive E=3.5961 (keep-current E=4.0108); routes changed=1
+2026-09-23 16:21:30,311 INFO run.814373.135599821542736.baseline.rerouting: step 21 block 1: 3 communications, 11 QUBO variables, 8 pairwise capacity conflicts; classical=classical_exhaustive E=2.6648; qaoa=not run; executed=classical_exhaustive E=2.6648 (keep-current E=3.1127); routes changed=2
+2026-09-23 16:21:30,311 INFO run.814373.135599821542736.baseline.rerouting: step 21 block 2: 1 communications, 1 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.0000; qaoa=not run; executed=classical_exhaustive E=1.0000 (keep-current E=1.0000); routes changed=0
+2026-09-23 16:21:30,311 INFO run.814373.135599821542736.baseline.rerouting: step 21 rerouted s0019-w002-g000-q0_11 (q0 QPU5 -> q11 QPU0): 5-2-0 -> 5-2-3-0, cost 266.91 -> 278.98
+2026-09-23 16:21:30,311 INFO run.814373.135599821542736.baseline.rerouting: step 21 rerouted s0019-w002-g003-q3_4 (q3 QPU4 -> q4 QPU5): 4-1-3-2-5 -> 4-0-2-5, cost 345.58 -> 420.96
+2026-09-23 16:21:30,311 INFO run.814373.135599821542736.baseline.rerouting: step 21 rerouted s0021-w004-g006-q7_11 (q7 QPU1 -> q11 QPU0): 1-4-0 -> 1-3-0, cost 200.68 -> 265.04
+2026-09-23 16:21:30,311 INFO run.814373.135599821542736.baseline.rerouting: step 21 link 0-2 utilization 0.67 -> 0.67 after selective rerouting
+2026-09-23 16:21:30,311 INFO run.814373.135599821542736.baseline.rerouting: step 21 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:30,311 INFO run.814373.135599821542736.baseline.rerouting: step 21 link 1-3 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:30,311 INFO run.814373.135599821542736.baseline.rerouting: step 21 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:30,573 INFO run.814373.135599821542736.baseline.rerouting: step 22 selective rerouting: 6 affected communications on congested links 0-4|1-3|2-3|2-5; 1 unaffected communications left untouched
+2026-09-23 16:21:30,573 INFO run.814373.135599821542736.baseline.rerouting: step 22 block 0: 4 communications, 5 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=12.7969; qaoa=not run; executed=classical_exhaustive E=12.7969 (keep-current E=13.0638); routes changed=1
+2026-09-23 16:21:30,573 INFO run.814373.135599821542736.baseline.rerouting: step 22 block 1: 2 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.1142; qaoa=not run; executed=classical_exhaustive E=1.1142 (keep-current E=1.7607); routes changed=1
+2026-09-23 16:21:30,573 INFO run.814373.135599821542736.baseline.rerouting: step 22 rerouted s0021-w004-g010-q15_18 (q15 QPU2 -> q18 QPU4): 2-3-1-4 -> 2-0-3-1-4, cost 298.00 -> 391.17
+2026-09-23 16:21:30,573 INFO run.814373.135599821542736.baseline.rerouting: step 22 rerouted s0022-w005-g011-q19_22 (q19 QPU3 -> q22 QPU2): 3-2 -> 3-0-2, cost 127.75 -> 218.67
+2026-09-23 16:21:30,573 INFO run.814373.135599821542736.baseline.rerouting: step 22 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:30,573 INFO run.814373.135599821542736.baseline.rerouting: step 22 link 1-3 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:30,573 INFO run.814373.135599821542736.baseline.rerouting: step 22 link 2-3 utilization 0.83 -> 0.50 after selective rerouting
+2026-09-23 16:21:30,573 INFO run.814373.135599821542736.baseline.rerouting: step 22 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:30,988 INFO run.814373.135599821542736.baseline.rerouting: step 23 selective rerouting: 8 affected communications on congested links 0-4|1-3|2-5; 2 unaffected communications left untouched
+2026-09-23 16:21:30,988 INFO run.814373.135599821542736.baseline.rerouting: step 23 block 0: 4 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.4859; qaoa=not run; executed=classical_exhaustive E=2.4859 (keep-current E=2.8886); routes changed=1
+2026-09-23 16:21:30,988 INFO run.814373.135599821542736.baseline.rerouting: step 23 block 1: 4 communications, 9 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.2478; qaoa=not run; executed=classical_exhaustive E=3.2478 (keep-current E=3.6874); routes changed=1
+2026-09-23 16:21:30,988 INFO run.814373.135599821542736.baseline.rerouting: step 23 rerouted s0023-w006-g003-q3_12 (q3 QPU0 -> q12 QPU1): 0-4-1 -> 0-3-1, cost 159.03 -> 173.99
+2026-09-23 16:21:30,988 INFO run.814373.135599821542736.baseline.rerouting: step 23 rerouted s0023-w006-g008-q11_19 (q11 QPU4 -> q19 QPU3): 4-1-3 -> 4-0-3, cost 161.44 -> 171.69
+2026-09-23 16:21:30,988 INFO run.814373.135599821542736.baseline.rerouting: step 23 link 0-4 utilization 0.75 -> 0.75 after selective rerouting
+2026-09-23 16:21:30,988 INFO run.814373.135599821542736.baseline.rerouting: step 23 link 1-3 utilization 0.83 -> 0.83 after selective rerouting
+2026-09-23 16:21:30,988 INFO run.814373.135599821542736.baseline.rerouting: step 23 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:30,990 INFO run.814373.135599821542736.baseline.rerouting: step 24 selective rerouting: 5 affected communications on congested links 1-3|2-3|2-5; 2 unaffected communications left untouched
+2026-09-23 16:21:30,990 INFO run.814373.135599821542736.baseline.rerouting: step 24 block 0: 3 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=6.9435; qaoa=not run; executed=classical_exhaustive E=6.9435 (keep-current E=8.3929); routes changed=1
+2026-09-23 16:21:30,991 INFO run.814373.135599821542736.baseline.rerouting: step 24 block 1: 2 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.8596; qaoa=not run; executed=classical_exhaustive E=0.8596 (keep-current E=0.8596); routes changed=0
+2026-09-23 16:21:30,991 INFO run.814373.135599821542736.baseline.rerouting: step 24 rerouted s0020-w003-g009-q13_18 (q13 QPU5 -> q18 QPU4): 5-2-3-1-4 -> 5-2-0-4, cost 411.44 -> 233.52
+2026-09-23 16:21:30,991 INFO run.814373.135599821542736.baseline.rerouting: step 24 link 1-3 utilization 1.00 -> 0.83 after selective rerouting
+2026-09-23 16:21:30,991 INFO run.814373.135599821542736.baseline.rerouting: step 24 link 2-3 utilization 0.67 -> 0.50 after selective rerouting
+2026-09-23 16:21:30,991 INFO run.814373.135599821542736.baseline.rerouting: step 24 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:30,993 INFO run.814373.135599821542736.baseline.rerouting: step 25 selective rerouting: 7 affected communications on congested links 0-4|1-3|2-3|2-5; 4 unaffected communications left untouched
+2026-09-23 16:21:30,993 INFO run.814373.135599821542736.baseline.rerouting: step 25 block 0: 4 communications, 11 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.9785; qaoa=not run; executed=classical_exhaustive E=3.9785 (keep-current E=4.1277); routes changed=1
+2026-09-23 16:21:30,993 INFO run.814373.135599821542736.baseline.rerouting: step 25 block 1: 3 communications, 8 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.4464; qaoa=not run; executed=classical_exhaustive E=1.4464 (keep-current E=1.7842); routes changed=1
+2026-09-23 16:21:30,993 INFO run.814373.135599821542736.baseline.rerouting: step 25 rerouted s0021-w004-g004-q4_12 (q4 QPU5 -> q12 QPU1): 5-2-3-1 -> 5-2-0-3-1, cost 367.60 -> 323.28
+2026-09-23 16:21:30,993 INFO run.814373.135599821542736.baseline.rerouting: step 25 rerouted s0025-w008-g007-q9_15 (q9 QPU1 -> q15 QPU2): 1-3-2 -> 1-3-0-2, cost 223.06 -> 175.65
+2026-09-23 16:21:30,993 INFO run.814373.135599821542736.baseline.rerouting: step 25 link 0-4 utilization 0.75 -> 0.75 after selective rerouting
+2026-09-23 16:21:30,993 INFO run.814373.135599821542736.baseline.rerouting: step 25 link 1-3 utilization 0.67 -> 0.67 after selective rerouting
+2026-09-23 16:21:30,993 INFO run.814373.135599821542736.baseline.rerouting: step 25 link 2-3 utilization 0.83 -> 0.50 after selective rerouting
+2026-09-23 16:21:30,993 INFO run.814373.135599821542736.baseline.rerouting: step 25 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:31,270 INFO run.814373.135599821542736.baseline.rerouting: step 26 selective rerouting: 6 affected communications on congested links 0-4|1-3|2-5; 1 unaffected communications left untouched
+2026-09-23 16:21:31,270 INFO run.814373.135599821542736.baseline.rerouting: step 26 block 0: 4 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.8019; qaoa=not run; executed=classical_exhaustive E=3.8019 (keep-current E=4.3484); routes changed=2
+2026-09-23 16:21:31,270 INFO run.814373.135599821542736.baseline.rerouting: step 26 block 1: 2 communications, 3 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.0325; qaoa=not run; executed=classical_exhaustive E=2.0325 (keep-current E=2.0325); routes changed=0
+2026-09-23 16:21:31,270 INFO run.814373.135599821542736.baseline.rerouting: step 26 rerouted s0022-w005-g005-q5_11 (q5 QPU5 -> q11 QPU4): 5-2-3-1-4 -> 5-2-0-4, cost 341.79 -> 355.02
+2026-09-23 16:21:31,270 INFO run.814373.135599821542736.baseline.rerouting: step 26 rerouted s0026-w009-g007-q9_16 (q9 QPU1 -> q16 QPU3): 1-4-0-3 -> 1-3, cost 229.12 -> 165.73
+2026-09-23 16:21:31,270 INFO run.814373.135599821542736.baseline.rerouting: step 26 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:31,270 INFO run.814373.135599821542736.baseline.rerouting: step 26 link 1-3 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:31,270 INFO run.814373.135599821542736.baseline.rerouting: step 26 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:31,667 INFO run.814373.135599821542736.baseline.rerouting: step 27 selective rerouting: 10 affected communications on congested links 0-4|1-3|1-4|2-5; 0 unaffected communications left untouched
+2026-09-23 16:21:31,667 INFO run.814373.135599821542736.baseline.rerouting: step 27 block 0: 4 communications, 10 QUBO variables, 6 pairwise capacity conflicts; classical=classical_exhaustive E=4.7552; qaoa=not run; executed=classical_exhaustive E=4.7552 (keep-current E=5.9602); routes changed=2
+2026-09-23 16:21:31,667 INFO run.814373.135599821542736.baseline.rerouting: step 27 block 1: 3 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.8115; qaoa=not run; executed=classical_exhaustive E=2.8115 (keep-current E=2.8115); routes changed=0
+2026-09-23 16:21:31,667 INFO run.814373.135599821542736.baseline.rerouting: step 27 block 2: 3 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.7444; qaoa=not run; executed=classical_exhaustive E=1.7444 (keep-current E=1.7444); routes changed=0
+2026-09-23 16:21:31,667 INFO run.814373.135599821542736.baseline.rerouting: step 27 rerouted s0023-w006-g004-q4_10 (q4 QPU5 -> q10 QPU4): 5-2-3-1-4 -> 5-2-0-4, cost 408.48 -> 353.64
+2026-09-23 16:21:31,667 INFO run.814373.135599821542736.baseline.rerouting: step 27 rerouted s0027-w010-g009-q12_15 (q12 QPU1 -> q15 QPU2): 1-4-0-2 -> 1-3-2, cost 296.72 -> 182.13
+2026-09-23 16:21:31,667 INFO run.814373.135599821542736.baseline.rerouting: step 27 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:31,667 INFO run.814373.135599821542736.baseline.rerouting: step 27 link 1-3 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:31,667 INFO run.814373.135599821542736.baseline.rerouting: step 27 link 1-4 utilization 0.62 -> 0.38 after selective rerouting
+2026-09-23 16:21:31,667 INFO run.814373.135599821542736.baseline.rerouting: step 27 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,108 INFO run.814373.135599821542736.baseline.rerouting: step 28 selective rerouting: 7 affected communications on congested links 0-4|2-3|2-5; 2 unaffected communications left untouched
+2026-09-23 16:21:32,108 INFO run.814373.135599821542736.baseline.rerouting: step 28 block 0: 5 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.3921; qaoa=not run; executed=classical_exhaustive E=4.3921 (keep-current E=8.6398); routes changed=2
+2026-09-23 16:21:32,108 INFO run.814373.135599821542736.baseline.rerouting: step 28 block 1: 2 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.9445; qaoa=not run; executed=classical_exhaustive E=0.9445 (keep-current E=0.9445); routes changed=0
+2026-09-23 16:21:32,108 INFO run.814373.135599821542736.baseline.rerouting: step 28 rerouted s0023-w006-g005-q5_7 (q5 QPU5 -> q7 QPU1): 5-2-3-1 -> 5-2-0-3-1, cost 285.71 -> 255.42
+2026-09-23 16:21:32,108 INFO run.814373.135599821542736.baseline.rerouting: step 28 rerouted s0028-w011-g005-q6_20 (q6 QPU3 -> q20 QPU2): 3-2 -> 3-0-2, cost 115.92 -> 82.34
+2026-09-23 16:21:32,108 INFO run.814373.135599821542736.baseline.rerouting: step 28 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,108 INFO run.814373.135599821542736.baseline.rerouting: step 28 link 2-3 utilization 0.75 -> 0.50 after selective rerouting
+2026-09-23 16:21:32,108 INFO run.814373.135599821542736.baseline.rerouting: step 28 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,291 INFO run.814373.135599821542736.baseline.rerouting: step 29 selective rerouting: 4 affected communications on congested links 0-2|2-5; 5 unaffected communications left untouched
+2026-09-23 16:21:32,291 INFO run.814373.135599821542736.baseline.rerouting: step 29 block 0: 4 communications, 8 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.2473; qaoa=not run; executed=classical_exhaustive E=3.2473 (keep-current E=3.6058); routes changed=1
+2026-09-23 16:21:32,291 INFO run.814373.135599821542736.baseline.rerouting: step 29 rerouted s0024-w007-g001-q1_5 (q1 QPU0 -> q5 QPU5): 0-2-5 -> 0-3-2-5, cost 275.23 -> 215.77
+2026-09-23 16:21:32,291 INFO run.814373.135599821542736.baseline.rerouting: step 29 link 0-2 utilization 0.70 -> 0.60 after selective rerouting
+2026-09-23 16:21:32,291 INFO run.814373.135599821542736.baseline.rerouting: step 29 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,477 INFO run.814373.135599821542736.baseline.rerouting: step 30 selective rerouting: 1 affected communications on congested links 2-5; 8 unaffected communications left untouched
+2026-09-23 16:21:32,477 INFO run.814373.135599821542736.baseline.rerouting: step 30 block 0: 1 communications, 2 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.7147; qaoa=not run; executed=classical_exhaustive E=0.7147 (keep-current E=0.7147); routes changed=0
+2026-09-23 16:21:32,477 INFO run.814373.135599821542736.baseline.rerouting: step 30 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,697 INFO run.814373.135599821542736.baseline.rerouting: step 31 selective rerouting: 6 affected communications on congested links 1-3|2-5; 5 unaffected communications left untouched
+2026-09-23 16:21:32,697 INFO run.814373.135599821542736.baseline.rerouting: step 31 block 0: 5 communications, 9 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.2477; qaoa=not run; executed=classical_exhaustive E=3.2477 (keep-current E=3.2489); routes changed=1
+2026-09-23 16:21:32,697 INFO run.814373.135599821542736.baseline.rerouting: step 31 block 1: 1 communications, 2 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.7579; qaoa=not run; executed=classical_exhaustive E=0.7579 (keep-current E=0.7579); routes changed=0
+2026-09-23 16:21:32,697 INFO run.814373.135599821542736.baseline.rerouting: step 31 rerouted s0031-w014-g008-q10_22 (q10 QPU4 -> q22 QPU3): 4-1-3 -> 4-0-3, cost 133.90 -> 176.93
+2026-09-23 16:21:32,697 INFO run.814373.135599821542736.baseline.rerouting: step 31 link 1-3 utilization 0.67 -> 0.50 after selective rerouting
+2026-09-23 16:21:32,697 INFO run.814373.135599821542736.baseline.rerouting: step 31 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,699 INFO run.814373.135599821542736.baseline.rerouting: step 32 selective rerouting: 7 affected communications on congested links 0-4|1-3|2-5; 2 unaffected communications left untouched
+2026-09-23 16:21:32,699 INFO run.814373.135599821542736.baseline.rerouting: step 32 block 0: 4 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.0303; qaoa=not run; executed=classical_exhaustive E=4.0303 (keep-current E=4.0303); routes changed=0
+2026-09-23 16:21:32,699 INFO run.814373.135599821542736.baseline.rerouting: step 32 block 1: 3 communications, 3 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.2077; qaoa=not run; executed=classical_exhaustive E=3.2077 (keep-current E=3.2077); routes changed=0
+2026-09-23 16:21:32,699 INFO run.814373.135599821542736.baseline.rerouting: step 32 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,699 INFO run.814373.135599821542736.baseline.rerouting: step 32 link 1-3 utilization 0.83 -> 0.83 after selective rerouting
+2026-09-23 16:21:32,699 INFO run.814373.135599821542736.baseline.rerouting: step 32 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,700 INFO run.814373.135599821542736.baseline.rerouting: step 33 selective rerouting: 5 affected communications on congested links 0-4|1-3|1-4|2-5; 2 unaffected communications left untouched
+2026-09-23 16:21:32,700 INFO run.814373.135599821542736.baseline.rerouting: step 33 block 0: 5 communications, 9 QUBO variables, 3 pairwise capacity conflicts; classical=classical_exhaustive E=3.5201; qaoa=not run; executed=classical_exhaustive E=3.5201 (keep-current E=3.5201); routes changed=0
+2026-09-23 16:21:32,700 INFO run.814373.135599821542736.baseline.rerouting: step 33 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,700 INFO run.814373.135599821542736.baseline.rerouting: step 33 link 1-3 utilization 0.80 -> 0.80 after selective rerouting
+2026-09-23 16:21:32,700 INFO run.814373.135599821542736.baseline.rerouting: step 33 link 1-4 utilization 0.62 -> 0.62 after selective rerouting
+2026-09-23 16:21:32,700 INFO run.814373.135599821542736.baseline.rerouting: step 33 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,854 INFO run.814373.135599821542736.baseline.rerouting: step 34 selective rerouting: 8 affected communications on congested links 1-3|1-4|2-3|2-5; 1 unaffected communications left untouched
+2026-09-23 16:21:32,854 INFO run.814373.135599821542736.baseline.rerouting: step 34 block 0: 3 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.5290; qaoa=not run; executed=classical_exhaustive E=3.5290 (keep-current E=7.7655); routes changed=2
+2026-09-23 16:21:32,855 INFO run.814373.135599821542736.baseline.rerouting: step 34 block 1: 5 communications, 7 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.5925; qaoa=not run; executed=classical_exhaustive E=2.5925 (keep-current E=2.5925); routes changed=0
+2026-09-23 16:21:32,855 INFO run.814373.135599821542736.baseline.rerouting: step 34 rerouted s0033-w000-g001-q1_13 (q1 QPU4 -> q13 QPU5): 4-1-3-2-5 -> 4-0-2-5, cost 497.14 -> 354.53
+2026-09-23 16:21:32,855 INFO run.814373.135599821542736.baseline.rerouting: step 34 rerouted s0034-w001-g001-q1_23 (q1 QPU4 -> q23 QPU2): 4-1-3-2 -> 4-0-2, cost 356.34 -> 211.88
+2026-09-23 16:21:32,855 INFO run.814373.135599821542736.baseline.rerouting: step 34 link 1-3 utilization 1.00 -> 0.60 after selective rerouting
+2026-09-23 16:21:32,855 INFO run.814373.135599821542736.baseline.rerouting: step 34 link 1-4 utilization 0.75 -> 0.50 after selective rerouting
+2026-09-23 16:21:32,855 INFO run.814373.135599821542736.baseline.rerouting: step 34 link 2-3 utilization 0.62 -> 0.38 after selective rerouting
+2026-09-23 16:21:32,855 INFO run.814373.135599821542736.baseline.rerouting: step 34 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,856 INFO run.814373.135599821542736.baseline.rerouting: step 35 selective rerouting: 4 affected communications on congested links 0-4|1-3|2-5; 2 unaffected communications left untouched
+2026-09-23 16:21:32,856 INFO run.814373.135599821542736.baseline.rerouting: step 35 block 0: 3 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.9938; qaoa=not run; executed=classical_exhaustive E=2.9938 (keep-current E=2.9938); routes changed=0
+2026-09-23 16:21:32,856 INFO run.814373.135599821542736.baseline.rerouting: step 35 block 1: 1 communications, 2 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.7893; qaoa=not run; executed=classical_exhaustive E=0.7893 (keep-current E=0.7893); routes changed=0
+2026-09-23 16:21:32,856 INFO run.814373.135599821542736.baseline.rerouting: step 35 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,856 INFO run.814373.135599821542736.baseline.rerouting: step 35 link 1-3 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,856 INFO run.814373.135599821542736.baseline.rerouting: step 35 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,858 INFO run.814373.135599821542736.baseline.rerouting: step 36 selective rerouting: 4 affected communications on congested links 0-4|1-3|1-4|2-5; 0 unaffected communications left untouched
+2026-09-23 16:21:32,858 INFO run.814373.135599821542736.baseline.rerouting: step 36 block 0: 4 communications, 10 QUBO variables, 10 pairwise capacity conflicts; classical=classical_exhaustive E=2.4923; qaoa=not run; executed=classical_exhaustive E=2.4923 (keep-current E=3.3003); routes changed=2
+2026-09-23 16:21:32,858 INFO run.814373.135599821542736.baseline.rerouting: step 36 rerouted s0034-w001-g004-q4_10 (q4 QPU5 -> q10 QPU4): 5-2-3-1-4 -> 5-2-0-4, cost 433.75 -> 359.16
+2026-09-23 16:21:32,858 INFO run.814373.135599821542736.baseline.rerouting: step 36 rerouted s0035-w002-g007-q8_23 (q8 QPU1 -> q23 QPU2): 1-4-0-2 -> 1-3-2, cost 324.52 -> 184.52
+2026-09-23 16:21:32,858 INFO run.814373.135599821542736.baseline.rerouting: step 36 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,858 INFO run.814373.135599821542736.baseline.rerouting: step 36 link 1-3 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:32,858 INFO run.814373.135599821542736.baseline.rerouting: step 36 link 1-4 utilization 0.71 -> 0.43 after selective rerouting
+2026-09-23 16:21:32,858 INFO run.814373.135599821542736.baseline.rerouting: step 36 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,130 INFO run.814373.135599821542736.baseline.rerouting: step 37 selective rerouting: 10 affected communications on congested links 0-2|0-4|1-3|2-5; 1 unaffected communications left untouched
+2026-09-23 16:21:33,130 INFO run.814373.135599821542736.baseline.rerouting: step 37 block 0: 5 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.0509; qaoa=not run; executed=classical_exhaustive E=3.0509 (keep-current E=3.5780); routes changed=1
+2026-09-23 16:21:33,130 INFO run.814373.135599821542736.baseline.rerouting: step 37 block 1: 5 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=4.1943; qaoa=not run; executed=classical_exhaustive E=4.1943 (keep-current E=4.1943); routes changed=0
+2026-09-23 16:21:33,130 INFO run.814373.135599821542736.baseline.rerouting: step 37 rerouted s0035-w002-g000-q0_11 (q0 QPU5 -> q11 QPU4): 5-2-0-4 -> 5-2-3-0-4, cost 412.22 -> 376.89
+2026-09-23 16:21:33,130 INFO run.814373.135599821542736.baseline.rerouting: step 37 link 0-2 utilization 0.60 -> 0.50 after selective rerouting
+2026-09-23 16:21:33,130 INFO run.814373.135599821542736.baseline.rerouting: step 37 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,130 INFO run.814373.135599821542736.baseline.rerouting: step 37 link 1-3 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,130 INFO run.814373.135599821542736.baseline.rerouting: step 37 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,341 INFO run.814373.135599821542736.baseline.rerouting: step 38 selective rerouting: 4 affected communications on congested links 0-4|1-3|2-5; 4 unaffected communications left untouched
+2026-09-23 16:21:33,341 INFO run.814373.135599821542736.baseline.rerouting: step 38 block 0: 4 communications, 10 QUBO variables, 13 pairwise capacity conflicts; classical=classical_exhaustive E=2.7954; qaoa=not run; executed=classical_exhaustive E=2.7954 (keep-current E=2.7954); routes changed=0
+2026-09-23 16:21:33,341 INFO run.814373.135599821542736.baseline.rerouting: step 38 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,341 INFO run.814373.135599821542736.baseline.rerouting: step 38 link 1-3 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,341 INFO run.814373.135599821542736.baseline.rerouting: step 38 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,343 INFO run.814373.135599821542736.baseline.rerouting: step 39 selective rerouting: 8 affected communications on congested links 0-4|1-3|2-3|2-5; 2 unaffected communications left untouched
+2026-09-23 16:21:33,343 INFO run.814373.135599821542736.baseline.rerouting: step 39 block 0: 3 communications, 11 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.7958; qaoa=not run; executed=classical_exhaustive E=2.7958 (keep-current E=3.0303); routes changed=1
+2026-09-23 16:21:33,343 INFO run.814373.135599821542736.baseline.rerouting: step 39 block 1: 3 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=8.3924; qaoa=not run; executed=classical_exhaustive E=8.3924 (keep-current E=8.3924); routes changed=0
+2026-09-23 16:21:33,343 INFO run.814373.135599821542736.baseline.rerouting: step 39 block 2: 2 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.5142; qaoa=not run; executed=classical_exhaustive E=1.5142 (keep-current E=2.3876); routes changed=1
+2026-09-23 16:21:33,343 INFO run.814373.135599821542736.baseline.rerouting: step 39 rerouted s0036-w003-g000-q0_21 (q0 QPU5 -> q21 QPU1): 5-2-3-1 -> 5-2-0-4-1, cost 407.85 -> 386.15
+2026-09-23 16:21:33,343 INFO run.814373.135599821542736.baseline.rerouting: step 39 rerouted s0039-w006-g006-q6_9 (q6 QPU2 -> q9 QPU1): 2-3-1 -> 2-0-3-1, cost 265.30 -> 268.10
+2026-09-23 16:21:33,343 INFO run.814373.135599821542736.baseline.rerouting: step 39 link 0-4 utilization 0.75 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,343 INFO run.814373.135599821542736.baseline.rerouting: step 39 link 1-3 utilization 1.00 -> 0.83 after selective rerouting
+2026-09-23 16:21:33,343 INFO run.814373.135599821542736.baseline.rerouting: step 39 link 2-3 utilization 0.75 -> 0.50 after selective rerouting
+2026-09-23 16:21:33,343 INFO run.814373.135599821542736.baseline.rerouting: step 39 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,345 INFO run.814373.135599821542736.baseline.rerouting: step 40 selective rerouting: 5 affected communications on congested links 0-3|0-4|1-3|1-4|2-5; 0 unaffected communications left untouched
+2026-09-23 16:21:33,345 INFO run.814373.135599821542736.baseline.rerouting: step 40 block 0: 4 communications, 10 QUBO variables, 13 pairwise capacity conflicts; classical=classical_exhaustive E=2.5658; qaoa=not run; executed=classical_exhaustive E=2.5658 (keep-current E=2.7656); routes changed=2
+2026-09-23 16:21:33,345 INFO run.814373.135599821542736.baseline.rerouting: step 40 block 1: 1 communications, 2 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.6763; qaoa=not run; executed=classical_exhaustive E=0.6763 (keep-current E=0.6763); routes changed=0
+2026-09-23 16:21:33,345 INFO run.814373.135599821542736.baseline.rerouting: step 40 rerouted s0036-w003-g004-q5_12 (q5 QPU5 -> q12 QPU1): 5-2-3-1 -> 5-2-0-4-1, cost 322.04 -> 448.71
+2026-09-23 16:21:33,345 INFO run.814373.135599821542736.baseline.rerouting: step 40 rerouted s0040-w007-g008-q12_19 (q12 QPU1 -> q19 QPU3): 1-4-0-3 -> 1-3, cost 381.60 -> 161.99
+2026-09-23 16:21:33,345 INFO run.814373.135599821542736.baseline.rerouting: step 40 link 0-3 utilization 0.62 -> 0.50 after selective rerouting
+2026-09-23 16:21:33,345 INFO run.814373.135599821542736.baseline.rerouting: step 40 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,345 INFO run.814373.135599821542736.baseline.rerouting: step 40 link 1-3 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,345 INFO run.814373.135599821542736.baseline.rerouting: step 40 link 1-4 utilization 0.62 -> 0.62 after selective rerouting
+2026-09-23 16:21:33,345 INFO run.814373.135599821542736.baseline.rerouting: step 40 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,652 INFO run.814373.135599821542736.baseline.rerouting: step 41 selective rerouting: 3 affected communications on congested links 0-4|1-4|2-5; 6 unaffected communications left untouched
+2026-09-23 16:21:33,652 INFO run.814373.135599821542736.baseline.rerouting: step 41 block 0: 3 communications, 7 QUBO variables, 2 pairwise capacity conflicts; classical=classical_exhaustive E=1.5078; qaoa=not run; executed=classical_exhaustive E=1.5078 (keep-current E=2.2194); routes changed=1
+2026-09-23 16:21:33,652 INFO run.814373.135599821542736.baseline.rerouting: step 41 rerouted s0040-w007-g011-q17_22 (q17 QPU4 -> q22 QPU3): 4-1-3 -> 4-0-3, cost 129.50 -> 222.46
+2026-09-23 16:21:33,652 INFO run.814373.135599821542736.baseline.rerouting: step 41 link 0-4 utilization 0.75 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,652 INFO run.814373.135599821542736.baseline.rerouting: step 41 link 1-4 utilization 0.62 -> 0.50 after selective rerouting
+2026-09-23 16:21:33,652 INFO run.814373.135599821542736.baseline.rerouting: step 41 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,653 INFO run.814373.135599821542736.baseline.rerouting: step 42 selective rerouting: 2 affected communications on congested links 2-5; 4 unaffected communications left untouched
+2026-09-23 16:21:33,653 INFO run.814373.135599821542736.baseline.rerouting: step 42 block 0: 2 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.8780; qaoa=not run; executed=classical_exhaustive E=1.8780 (keep-current E=1.8780); routes changed=0
+2026-09-23 16:21:33,653 INFO run.814373.135599821542736.baseline.rerouting: step 42 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,655 INFO run.814373.135599821542736.baseline.rerouting: step 43 selective rerouting: 7 affected communications on congested links 1-3|2-3|2-5; 0 unaffected communications left untouched
+2026-09-23 16:21:33,655 INFO run.814373.135599821542736.baseline.rerouting: step 43 block 0: 3 communications, 12 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.1809; qaoa=not run; executed=classical_exhaustive E=2.1809 (keep-current E=5.4311); routes changed=2
+2026-09-23 16:21:33,655 INFO run.814373.135599821542736.baseline.rerouting: step 43 block 1: 4 communications, 9 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.8560; qaoa=not run; executed=classical_exhaustive E=2.8560 (keep-current E=3.0411); routes changed=1
+2026-09-23 16:21:33,656 INFO run.814373.135599821542736.baseline.rerouting: step 43 rerouted s0043-w010-g005-q6_9 (q6 QPU2 -> q9 QPU1): 2-3-1 -> 2-0-4-1, cost 232.75 -> 194.24
+2026-09-23 16:21:33,656 INFO run.814373.135599821542736.baseline.rerouting: step 43 rerouted s0043-w010-g006-q7_23 (q7 QPU1 -> q23 QPU2): 1-3-2 -> 1-4-0-2, cost 232.75 -> 194.24
+2026-09-23 16:21:33,656 INFO run.814373.135599821542736.baseline.rerouting: step 43 rerouted s0043-w010-g009-q12_15 (q12 QPU4 -> q15 QPU2): 4-1-3-2 -> 4-0-2, cost 258.44 -> 168.23
+2026-09-23 16:21:33,656 INFO run.814373.135599821542736.baseline.rerouting: step 43 link 1-3 utilization 0.83 -> 0.33 after selective rerouting
+2026-09-23 16:21:33,656 INFO run.814373.135599821542736.baseline.rerouting: step 43 link 2-3 utilization 0.71 -> 0.29 after selective rerouting
+2026-09-23 16:21:33,656 INFO run.814373.135599821542736.baseline.rerouting: step 43 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,848 INFO run.814373.135599821542736.baseline.rerouting: step 44 selective rerouting: 6 affected communications on congested links 0-4|1-3|2-5; 3 unaffected communications left untouched
+2026-09-23 16:21:33,848 INFO run.814373.135599821542736.baseline.rerouting: step 44 block 0: 3 communications, 10 QUBO variables, 8 pairwise capacity conflicts; classical=classical_exhaustive E=1.8173; qaoa=not run; executed=classical_exhaustive E=1.8173 (keep-current E=1.8173); routes changed=0
+2026-09-23 16:21:33,848 INFO run.814373.135599821542736.baseline.rerouting: step 44 block 1: 3 communications, 4 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.4558; qaoa=not run; executed=classical_exhaustive E=2.4558 (keep-current E=2.4558); routes changed=0
+2026-09-23 16:21:33,848 INFO run.814373.135599821542736.baseline.rerouting: step 44 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,848 INFO run.814373.135599821542736.baseline.rerouting: step 44 link 1-3 utilization 0.67 -> 0.67 after selective rerouting
+2026-09-23 16:21:33,848 INFO run.814373.135599821542736.baseline.rerouting: step 44 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,850 INFO run.814373.135599821542736.baseline.rerouting: step 45 selective rerouting: 8 affected communications on congested links 0-4|1-3|1-4|2-3|2-5; 1 unaffected communications left untouched
+2026-09-23 16:21:33,850 INFO run.814373.135599821542736.baseline.rerouting: step 45 block 0: 3 communications, 10 QUBO variables, 8 pairwise capacity conflicts; classical=classical_exhaustive E=3.1237; qaoa=not run; executed=classical_exhaustive E=3.1237 (keep-current E=4.2000); routes changed=2
+2026-09-23 16:21:33,850 INFO run.814373.135599821542736.baseline.rerouting: step 45 block 1: 5 communications, 7 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.2060; qaoa=not run; executed=classical_exhaustive E=3.2060 (keep-current E=3.2060); routes changed=0
+2026-09-23 16:21:33,850 INFO run.814373.135599821542736.baseline.rerouting: step 45 rerouted s0045-w012-g000-q0_10 (q0 QPU5 -> q10 QPU4): 5-2-3-1-4 -> 5-2-0-4, cost 485.72 -> 354.36
+2026-09-23 16:21:33,850 INFO run.814373.135599821542736.baseline.rerouting: step 45 rerouted s0045-w012-g009-q15_17 (q15 QPU0 -> q17 QPU4): 0-4 -> 0-3-1-4, cost 177.17 -> 288.73
+2026-09-23 16:21:33,850 INFO run.814373.135599821542736.baseline.rerouting: step 45 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,850 INFO run.814373.135599821542736.baseline.rerouting: step 45 link 1-3 utilization 0.83 -> 0.83 after selective rerouting
+2026-09-23 16:21:33,850 INFO run.814373.135599821542736.baseline.rerouting: step 45 link 1-4 utilization 0.75 -> 0.75 after selective rerouting
+2026-09-23 16:21:33,850 INFO run.814373.135599821542736.baseline.rerouting: step 45 link 2-3 utilization 0.71 -> 0.57 after selective rerouting
+2026-09-23 16:21:33,850 INFO run.814373.135599821542736.baseline.rerouting: step 45 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:33,851 INFO run.814373.135599821542736.baseline.rerouting: step 46 selective rerouting: 4 affected communications on congested links 1-4|2-5; 4 unaffected communications left untouched
+2026-09-23 16:21:33,851 INFO run.814373.135599821542736.baseline.rerouting: step 46 block 0: 4 communications, 9 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.9689; qaoa=not run; executed=classical_exhaustive E=1.9689 (keep-current E=1.9689); routes changed=0
+2026-09-23 16:21:33,851 INFO run.814373.135599821542736.baseline.rerouting: step 46 link 1-4 utilization 0.62 -> 0.62 after selective rerouting
+2026-09-23 16:21:33,851 INFO run.814373.135599821542736.baseline.rerouting: step 46 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:34,016 INFO run.814373.135599821542736.baseline.rerouting: step 47 selective rerouting: 1 affected communications on congested links 2-5; 6 unaffected communications left untouched
+2026-09-23 16:21:34,016 INFO run.814373.135599821542736.baseline.rerouting: step 47 block 0: 1 communications, 2 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=0.6900; qaoa=not run; executed=classical_exhaustive E=0.6900 (keep-current E=0.6900); routes changed=0
+2026-09-23 16:21:34,016 INFO run.814373.135599821542736.baseline.rerouting: step 47 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:34,050 INFO run.814373.135599821542736.baseline.rerouting: step 48 selective rerouting: 5 affected communications on congested links 1-3|2-5; 3 unaffected communications left untouched
+2026-09-23 16:21:34,050 INFO run.814373.135599821542736.baseline.rerouting: step 48 block 0: 5 communications, 8 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=5.2270; qaoa=not run; executed=classical_exhaustive E=5.2270 (keep-current E=5.9559); routes changed=1
+2026-09-23 16:21:34,050 INFO run.814373.135599821542736.baseline.rerouting: step 48 rerouted s0048-w015-g006-q7_8 (q7 QPU1 -> q8 QPU0): 1-3-0 -> 1-4-0, cost 149.54 -> 72.67
+2026-09-23 16:21:34,050 INFO run.814373.135599821542736.baseline.rerouting: step 48 link 1-3 utilization 0.67 -> 0.50 after selective rerouting
+2026-09-23 16:21:34,050 INFO run.814373.135599821542736.baseline.rerouting: step 48 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:34,109 INFO run.814373.135599821542736.baseline.rerouting: step 49 selective rerouting: 6 affected communications on congested links 1-3|2-5; 2 unaffected communications left untouched
+2026-09-23 16:21:34,109 INFO run.814373.135599821542736.baseline.rerouting: step 49 block 0: 3 communications, 10 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=3.4526; qaoa=not run; executed=classical_exhaustive E=3.4526 (keep-current E=6.6457); routes changed=1
+2026-09-23 16:21:34,109 INFO run.814373.135599821542736.baseline.rerouting: step 49 block 1: 3 communications, 6 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=2.5830; qaoa=not run; executed=classical_exhaustive E=2.5830 (keep-current E=2.5830); routes changed=0
+2026-09-23 16:21:34,109 INFO run.814373.135599821542736.baseline.rerouting: step 49 rerouted s0048-w015-g000-q0_11 (q0 QPU5 -> q11 QPU4): 5-2-3-1-4 -> 5-2-0-4, cost 321.40 -> 237.15
+2026-09-23 16:21:34,109 INFO run.814373.135599821542736.baseline.rerouting: step 49 link 1-3 utilization 0.83 -> 0.67 after selective rerouting
+2026-09-23 16:21:34,109 INFO run.814373.135599821542736.baseline.rerouting: step 49 link 2-5 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:34,170 INFO run.814373.135599821542736.baseline.rerouting: step 50 selective rerouting: 6 affected communications on congested links 0-4|1-3|2-3|2-5; 1 unaffected communications left untouched
+2026-09-23 16:21:34,170 INFO run.814373.135599821542736.baseline.rerouting: step 50 block 0: 3 communications, 9 QUBO variables, 0 pairwise capacity conflicts; classical=classical_exhaustive E=1.9685; qaoa=not run; executed=classical_exhaustive E=1.9685 (keep-current E=2.4991); routes changed=1
+2026-09-23 16:21:34,170 INFO run.814373.135599821542736.baseline.rerouting: step 50 block 1: 3 communications, 9 QUBO variables, 4 pairwise capacity conflicts; classical=classical_exhaustive E=2.1925; qaoa=not run; executed=classical_exhaustive E=2.1925 (keep-current E=3.7987); routes changed=1
+2026-09-23 16:21:34,170 INFO run.814373.135599821542736.baseline.rerouting: step 50 rerouted s0050-w001-g002-q2_21 (q2 QPU0 -> q21 QPU1): 0-4-1 -> 0-3-1, cost 197.60 -> 146.45
+2026-09-23 16:21:34,170 INFO run.814373.135599821542736.baseline.rerouting: step 50 rerouted s0050-w001-g003-q3_12 (q3 QPU2 -> q12 QPU4): 2-3-1-4 -> 2-0-4, cost 217.76 -> 205.63
+2026-09-23 16:21:34,170 INFO run.814373.135599821542736.baseline.rerouting: step 50 link 0-4 utilization 1.00 -> 1.00 after selective rerouting
+2026-09-23 16:21:34,170 INFO run.814373.135599821542736.baseline.rerouting: step 50 link 1-3 utilization 0.67 -> 0.67 after selective rerouting
+2026-09-23 16:21:34,170 INFO run.814373.135599821542736.baseline.rerouting: step 50 link 2-3 utilization 0.67 -> 0.50 after selective rerouting
+2026-09-23 16:21:34,170 INFO run.814373.135599821542736.baseline.rerouting: step 50 link 2-5 utilization 1.00 -> 1.00 after selective rerouting

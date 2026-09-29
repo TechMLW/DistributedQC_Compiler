@@ -1,0 +1,9 @@
+qiskit>=2.0.0
+qiskit-aer>=0.16.0
+networkx>=3.0
+matplotlib>=3.5.0
+numpy>=1.23.0
+scipy>=1.10.0
+rustworkx>=0.15.0
+pandas>=2.0.0
+
